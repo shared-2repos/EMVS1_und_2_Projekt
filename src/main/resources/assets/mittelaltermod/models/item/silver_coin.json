@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mittelaltermod:item/silver_coin"
+  },
+  "display": {
+    "gui": {
+      "scale": [1, 1, 1]
+    }
+  }
+}

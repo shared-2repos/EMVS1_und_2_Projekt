@@ -1,17 +1,13 @@
 package com.mittelaltermod;
 
+import com.mittelaltermod.block.ModBlocks;
+import com.mittelaltermod.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
-import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.material.MapColor;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.listener.SubscribeEvent;
@@ -32,82 +28,82 @@ public final class MittelalterMod {
     public static final String MODID = "mittelaltermod";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
-    // Create a Deferred Register to hold Blocks which will all be registered under the "mittelaltermod" namespace
-    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MODID);
-    // Create a Deferred Register to hold Items which will all be registered under the "mittelaltermod" namespace
-    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
+
     // Create a Deferred Register to hold CreativeModeTabs which will all be registered under the "mittelaltermod" namespace
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MODID);
 
-    // Creates a new Block with the id "mittelaltermod:example_block", combining the namespace and path
-    public static final RegistryObject<Block> EXAMPLE_BLOCK = BLOCKS.register("example_block",
-        () -> new Block(BlockBehaviour.Properties.of()
-            .setId(BLOCKS.key("example_block"))
-            .mapColor(MapColor.STONE)
-        )
-    );
-    // Creates a new BlockItem with the id "mittelaltermod:example_block", combining the namespace and path
-    public static final RegistryObject<Item> EXAMPLE_BLOCK_ITEM = ITEMS.register("example_block",
-        () -> new BlockItem(EXAMPLE_BLOCK.get(), new Item.Properties().setId(ITEMS.key("example_block")))
-    );
-
-    // Creates a new food item with the id "mittelaltermod:example_id", nutrition 1 and saturation 2
-    public static final RegistryObject<Item> EXAMPLE_ITEM = ITEMS.register("example_item",
-        () -> new Item(new Item.Properties()
-            .setId(ITEMS.key("example_item"))
-            .food(new FoodProperties.Builder()
-                .alwaysEdible()
-                .nutrition(1)
-                .saturationModifier(2f)
-                .build()
-            )
-        )
-    );
-
-    // Creates a creative tab with the id "mittelaltermod:example_tab" for the example item, that is placed after the combat tab
-    public static final RegistryObject<CreativeModeTab> EXAMPLE_TAB = CREATIVE_MODE_TABS.register("example_tab", () -> CreativeModeTab.builder()
+    // Creates a creative tab with the id "mittelaltermod:mittelalter_tab" for our medieval items
+    public static final RegistryObject<CreativeModeTab> MITTELALTER_TAB = CREATIVE_MODE_TABS.register("mittelalter_tab", () -> CreativeModeTab.builder()
             .withTabsBefore(CreativeModeTabs.COMBAT)
-            .icon(() -> EXAMPLE_ITEM.get().getDefaultInstance())
+            .icon(() -> ModItems.SILVER_COIN.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
-                output.accept(EXAMPLE_ITEM.get()); // Add the example item to the tab. For your own tabs, this method is preferred over the event
+                // Add items to our custom tab
+                output.accept(ModItems.SILVER_COIN.get());
+                output.accept(ModItems.BREAD_LOAF.get());
+                output.accept(ModItems.SILVER_BLOCK_ITEM.get());
+                output.accept(ModItems.CASTLE_BRICK_ITEM.get());
+                // Add more items here as you create them
             }).build());
 
-    public MittelalterMod(FMLJavaModLoadingContext context) {
-        var modBusGroup = context.getModBusGroup();
+	public MittelalterMod(FMLJavaModLoadingContext context) {
+		var modBusGroup = context.getModBusGroup();
 
-        // Register the commonSetup method for modloading
-        FMLCommonSetupEvent.getBus(modBusGroup).addListener(this::commonSetup);
+		LOGGER.info("=== MITTELALTER MOD CONSTRUCTOR START ===");
 
-        // Register the Deferred Register to the mod event bus so blocks get registered
-        BLOCKS.register(modBusGroup);
-        // Register the Deferred Register to the mod event bus so items get registered
-        ITEMS.register(modBusGroup);
-        // Register the Deferred Register to the mod event bus so tabs get registered
-        CREATIVE_MODE_TABS.register(modBusGroup);
+		FMLCommonSetupEvent.getBus(modBusGroup).addListener(this::commonSetup);
 
-        // Register the item to a creative tab
-        BuildCreativeModeTabContentsEvent.BUS.addListener(MittelalterMod::addCreative);
+		// Register the Deferred Registers from our separate classes
+		LOGGER.info("Registering ModBlocks...");
+		ModBlocks.BLOCKS.register(modBusGroup);
 
-        // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us
-        context.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
-    }
+		LOGGER.info("Registering ModItems...");
+		ModItems.ITEMS.register(modBusGroup);
 
-    private void commonSetup(final FMLCommonSetupEvent event) {
-        // Some common setup code
-        LOGGER.info("HELLO FROM COMMON SETUP");
+		LOGGER.info("Registering CreativeModeTabs...");
+		CREATIVE_MODE_TABS.register(modBusGroup);
 
-        if (Config.logDirtBlock)
-            LOGGER.info("DIRT BLOCK >> {}", ForgeRegistries.BLOCKS.getKey(Blocks.DIRT));
+		// Register items to vanilla creative tabs
+		BuildCreativeModeTabContentsEvent.BUS.addListener(MittelalterMod::addCreative);
 
-        LOGGER.info(Config.magicNumberIntroduction + Config.magicNumber);
+		// Register our mod's ForgeConfigSpec
+		context.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
 
-        Config.items.forEach((item) -> LOGGER.info("ITEM >> {}", item.toString()));
-    }
+		LOGGER.info("Total items in ModItems.ITEMS: {}", ModItems.ITEMS.getEntries().size());
+		LOGGER.info("=== MITTELALTER MOD CONSTRUCTOR END ===");
+	}
 
-    // Add the example block item to the building blocks tab
+	private void commonSetup(final FMLCommonSetupEvent event) {
+		LOGGER.info("=== COMMON SETUP START ===");
+		LOGGER.info("HELLO FROM COMMON SETUP - Mittelalter Mod initialized!");
+
+		if (Config.logDirtBlock)
+			LOGGER.info("DIRT BLOCK >> {}", ForgeRegistries.BLOCKS.getKey(Blocks.DIRT));
+
+		LOGGER.info(Config.magicNumberIntroduction + Config.magicNumber);
+
+		Config.items.forEach((item) -> LOGGER.info("ITEM >> {}", item.toString()));
+
+		// Log our registered items with their IDs
+		LOGGER.info("=== OUR REGISTERED ITEMS ===");
+		for (var entry : ModItems.ITEMS.getEntries()) {
+			LOGGER.info("Item: {} -> {}", entry.getId(), entry.get());
+		}
+
+		LOGGER.info("=== COMMON SETUP END ===");
+	}
+
+    // Add items to vanilla creative tabs
     private static void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS)
-            event.accept(EXAMPLE_BLOCK_ITEM);
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModItems.SILVER_BLOCK_ITEM);
+            event.accept(ModItems.CASTLE_BRICK_ITEM);
+        }
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.SILVER_COIN);
+        }
+        if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+            event.accept(ModItems.BREAD_LOAF);
+        }
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
@@ -116,7 +112,7 @@ public final class MittelalterMod {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
             // Some client setup code
-            LOGGER.info("HELLO FROM CLIENT SETUP");
+            LOGGER.info("HELLO FROM CLIENT SETUP - Mittelalter Mod client initialized!");
             LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
         }
     }
