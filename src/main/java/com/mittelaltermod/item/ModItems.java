@@ -36,8 +36,8 @@ public class ModItems {
         () -> new Item(new Item.Properties()
             .setId(ITEMS.key("chicken_soup"))
             .food(new FoodProperties.Builder()
-                .nutrition(9)
-                .saturationModifier(1f)
+                .nutrition(7)
+                .saturationModifier(0.5f)
                 .build()
             )
         )
@@ -48,7 +48,7 @@ public class ModItems {
             .setId(ITEMS.key("vegan_soup"))
             .food(new FoodProperties.Builder()
                 .nutrition(6)
-                .saturationModifier(0.7f)
+                .saturationModifier(0.35f)
                 .build()
             )
         )
@@ -58,12 +58,47 @@ public class ModItems {
         () -> new Item(new Item.Properties()
             .setId(ITEMS.key("gulas_soup"))
             .food(new FoodProperties.Builder()
-                .nutrition(9)
-                .saturationModifier(1.2f)
+                .nutrition(7)
+                .saturationModifier(0.8f)
                 .build()
             )
         )
-    );            
+    );
+
+    public static final RegistryObject<Item> CHEESE = ITEMS.register("cheese",
+        () -> new Item(new Item.Properties()
+            .setId(ITEMS.key("cheese"))
+            .food(new FoodProperties.Builder()
+                .nutrition(3)
+                .saturationModifier(0.2f)
+                .build()
+            )
+        )
+    );
+
+    public static final RegistryObject<Item>  FRIED_EGG = ITEMS.register("fried_egg",
+        () -> new Item(new Item.Properties()
+            .setId(ITEMS.key("fried_egg"))
+            .food(new FoodProperties.Builder()
+                .nutrition(6)
+                .saturationModifier(0.3f)
+                .build()
+            )
+        )
+    );
+
+    public static final RegistryObject<Item> STEW = ITEMS.register("stew",
+        () -> new Item(new Item.Properties()
+            .setId(ITEMS.key("stew"))
+            .food(new FoodProperties.Builder()
+                .nutrition(12)
+                .saturationModifier(1.1f)
+                .build()
+            )
+        )
+    );        
+
+
     
     // Block items
     public static final RegistryObject<Item> SILVER_BLOCK_ITEM = ITEMS.register("silver_block",

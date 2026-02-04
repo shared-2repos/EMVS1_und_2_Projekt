@@ -4,6 +4,9 @@
   "item.mittelaltermod.chicken_soup": "Chicken Soup",
   "item.mittelaltermod.vegan_soup": "Vegan Soup",
   "item.mittelaltermod.gulas_soup": "Gulas Soup",
+  "item.mittelaltermod.cheese" : "Cheese",
+  "item.mittelaltermod.fried_egg" : "Fried Egg",
+  "item.mittelaltermod.stew" : "Stew",
   "block.mittelaltermod.silver_block": "Silver Block",
   "block.mittelaltermod.castle_brick": "Castle Brick",
   "itemGroup.mittelaltermod.mittelalter_tab": "Mittelalter Items"

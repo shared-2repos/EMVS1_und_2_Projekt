@@ -106,6 +106,9 @@ public final class MittelalterMod {
             event.accept(ModItems.VEGAN_SOUP);
             event.accept(ModItems.CHICKEN_SOUP);
             event.accept(ModItems.BREAD_LOAF);
+            event.accept(ModItems.CHEESE);
+            event.accept(ModItems.FRIED_EGG);
+            event.accept(ModItems.STEW);
         }
     }
 
