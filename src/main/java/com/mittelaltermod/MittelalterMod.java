@@ -102,6 +102,9 @@ public final class MittelalterMod {
             event.accept(ModItems.SILVER_COIN);
         }
         if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+            event.accept(ModItems.GULAS_SOUP);
+            event.accept(ModItems.VEGAN_SOUP);
+            event.accept(ModItems.CHICKEN_SOUP);
             event.accept(ModItems.BREAD_LOAF);
         }
     }

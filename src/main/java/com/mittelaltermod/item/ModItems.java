@@ -31,6 +31,39 @@ public class ModItems {
             )
         )
     );
+
+    public static final RegistryObject<Item> CHICKEN_SOUP = ITEMS.register("chicken_soup",
+        () -> new Item(new Item.Properties()
+            .setId(ITEMS.key("chicken_soup"))
+            .food(new FoodProperties.Builder()
+                .nutrition(9)
+                .saturationModifier(1f)
+                .build()
+            )
+        )
+    );
+
+    public static final RegistryObject<Item> VEGAN_SOUP = ITEMS.register("vegan_soup",
+        () -> new Item(new Item.Properties()
+            .setId(ITEMS.key("vegan_soup"))
+            .food(new FoodProperties.Builder()
+                .nutrition(6)
+                .saturationModifier(0.7f)
+                .build()
+            )
+        )
+    );
+
+    public static final RegistryObject<Item> GULAS_SOUP = ITEMS.register("gulas_soup",
+        () -> new Item(new Item.Properties()
+            .setId(ITEMS.key("gulas_soup"))
+            .food(new FoodProperties.Builder()
+                .nutrition(9)
+                .saturationModifier(1.2f)
+                .build()
+            )
+        )
+    );            
     
     // Block items
     public static final RegistryObject<Item> SILVER_BLOCK_ITEM = ITEMS.register("silver_block",
