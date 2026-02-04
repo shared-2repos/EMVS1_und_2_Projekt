@@ -21,6 +21,12 @@ public class ModItems {
         )
     );
 
+    public static final RegistryObject<Item> BRONZE_COIN = ITEMS.register("bronze_coin",
+        () -> new Item(new Item.Properties()
+            .setId(ITEMS.key("bronze_coin"))
+        )
+    );    
+
     public static final RegistryObject<Item> FAT = ITEMS.register("fat",
         () -> new Item(new Item.Properties()
             .setId(ITEMS.key("fat"))

@@ -109,6 +109,8 @@ public final class MittelalterMod {
             event.accept(ModItems.CHEESE);
             event.accept(ModItems.FRIED_EGG);
             event.accept(ModItems.STEW);
+            event.accept(ModItems.FAT);
+            event.accept(ModItems.BRONZE_COIN);
         }
     }
 
