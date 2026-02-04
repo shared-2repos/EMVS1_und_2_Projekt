@@ -20,6 +20,12 @@ public class ModItems {
             .setId(ITEMS.key("silver_coin"))
         )
     );
+
+    public static final RegistryObject<Item> FAT = ITEMS.register("fat",
+        () -> new Item(new Item.Properties()
+            .setId(ITEMS.key("fat"))
+        )
+    );
     
     public static final RegistryObject<Item> BREAD_LOAF = ITEMS.register("bread_loaf",
         () -> new Item(new Item.Properties()
