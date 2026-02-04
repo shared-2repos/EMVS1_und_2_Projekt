@@ -1,6 +1,9 @@
 {
   "item.mittelaltermod.silver_coin": "Silver Coin",
   "item.mittelaltermod.bread_loaf": "Bread Loaf",
+  "item.mittelaltermod.chicken_soup": "Chicken Soup",
+  "item.mittelaltermod.vegan_soup": "Vegan Soup",
+  "item.mittelaltermod.gulas_soup": "Gulas Soup",
   "block.mittelaltermod.silver_block": "Silver Block",
   "block.mittelaltermod.castle_brick": "Castle Brick",
   "itemGroup.mittelaltermod.mittelalter_tab": "Mittelalter Items"
