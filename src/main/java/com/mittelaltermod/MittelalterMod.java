@@ -111,6 +111,7 @@ public final class MittelalterMod {
             event.accept(ModItems.STEW);
             event.accept(ModItems.FAT);
             event.accept(ModItems.BRONZE_COIN);
+            event.accept(ModItems.SILVER_ORES);
         }
     }
 

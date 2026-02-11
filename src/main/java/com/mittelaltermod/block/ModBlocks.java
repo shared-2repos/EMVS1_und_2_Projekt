@@ -31,4 +31,13 @@ public class ModBlocks {
             .strength(2.0f)
         )
     );
+
+    public static final RegistryObject<Block> SILVER_ORES = BLOCKS.register("silver_ores",
+        () -> new Block(BlockBehaviour.Properties.of()
+            .setId(BLOCKS.key("silver_ores"))
+            .mapColor(MapColor.METAL)
+            .strength(3.0f)
+            .requiresCorrectToolForDrops()
+        )
+    );
 }

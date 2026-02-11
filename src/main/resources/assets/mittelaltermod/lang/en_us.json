@@ -11,5 +11,6 @@
   "item.mittelaltermod.stew" : "Stew",
   "block.mittelaltermod.silver_block": "Silver Block",
   "block.mittelaltermod.castle_brick": "Castle Brick",
-  "itemGroup.mittelaltermod.mittelalter_tab": "Mittelalter Items"
+  "itemGroup.mittelaltermod.mittelalter_tab": "Mittelalter Items",
+  "item.mittelaltermod.silver_ores":  "Silver Ore"
 }
