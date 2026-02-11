@@ -10,11 +10,14 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
+
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = 
         DeferredRegister.create(ForgeRegistries.ITEMS, MittelalterMod.MODID);
     
     // Register your items here
+    
+
     public static final RegistryObject<Item> SILVER_COIN = ITEMS.register("silver_coin",
         () -> new Item(new Item.Properties()
             .setId(ITEMS.key("silver_coin"))
@@ -25,7 +28,13 @@ public class ModItems {
         () -> new Item(new Item.Properties()
             .setId(ITEMS.key("bronze_coin"))
         )
-    );    
+    );
+
+    public static final RegistryObject<Item> GOLD_COIN = ITEMS.register("gold_coin",
+        () -> new Item(new Item.Properties()
+            .setId(ITEMS.key("gold_coin"))
+        )
+    );            
 
     public static final RegistryObject<Item> FAT = ITEMS.register("fat",
         () -> new Item(new Item.Properties()
@@ -124,4 +133,6 @@ public class ModItems {
             .setId(ITEMS.key("castle_brick"))
         )
     );
+
+    
 }
