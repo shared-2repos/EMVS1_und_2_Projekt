@@ -109,4 +109,7 @@ public class ModItems {
     public static final RegistryObject<Item> SILVER_ORES = ITEMS.register("silver_ores",
             () -> new Item(new Item.Properties()
                     .setId(ITEMS.key("silver_ores"))));
+
+    //Armors
+    public static final RegistryObject<item>
 }
