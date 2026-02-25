@@ -6,6 +6,9 @@ import com.mittelaltermod.block.ModBlocks;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ToolMaterial;
+import net.minecraft.world.item.equipment.ArmorMaterial;
+import net.minecraft.world.item.equipment.ArmorMaterials;
+import net.minecraft.world.item.equipment.ArmorType;
 import net.minecraft.world.level.block.IronBarsBlock;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
@@ -109,10 +112,13 @@ public class ModItems {
                         () -> new BlockItem(ModBlocks.CASTLE_BRICK.get(), new Item.Properties()
                                         .setId(ITEMS.key("castle_brick"))));
 
-    public static final RegistryObject<Item> SILVER_ORES = ITEMS.register("silver_ores",
-            () -> new Item(new Item.Properties()
-                    .setId(ITEMS.key("silver_ores"))));
+        public static final RegistryObject<Item> SILVER_ORES = ITEMS.register("silver_ores",
+                        () -> new Item(new Item.Properties()
+                                        .setId(ITEMS.key("silver_ores"))));
 
-    //Armors
-    public static final RegistryObject<item>
+        // Armors
+        public static final RegistryObject<Item> ARMOR = ITEMS.register("armor",
+                        () -> new Item(new Item.Properties()
+                                        .setId(ITEMS.key("armor"))
+                                        .humanoidArmor(ArmorMaterials.IRON, ArmorType.HELMET)));
 }
