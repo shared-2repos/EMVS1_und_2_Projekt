@@ -5,6 +5,10 @@ import com.mittelaltermod.MittelalterMod;
 import com.mittelaltermod.block.ModBlocks;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ToolMaterial;
+import net.minecraft.world.level.block.IronBarsBlock;
+import net.minecraft.tags.BlockTags;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -16,11 +20,18 @@ public class ModItems {
         DeferredRegister.create(ForgeRegistries.ITEMS, MittelalterMod.MODID);
     
     // Register your items here
-    
+
 
     public static final RegistryObject<Item> SILVER_COIN = ITEMS.register("silver_coin",
         () -> new Item(new Item.Properties()
             .setId(ITEMS.key("silver_coin"))
+        )
+    );
+
+    public static final RegistryObject<Item> SILVER_SWORD = ITEMS.register("silver_sword",
+        () -> new Item(new Item.Properties()
+            .setId(ITEMS.key("silver_sword"))
+            .sword(ToolMaterial.IRON,2.5F,2F)
         )
     );
 
