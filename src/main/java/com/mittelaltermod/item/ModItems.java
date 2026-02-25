@@ -31,9 +31,15 @@ public class ModItems {
     public static final RegistryObject<Item> SILVER_SWORD = ITEMS.register("silver_sword",
         () -> new Item(new Item.Properties()
             .setId(ITEMS.key("silver_sword"))
-            .sword(ToolMaterial.IRON,2.5F,2F)
+            .sword(ToolMaterial.IRON,2.5F,-2.8F)
         )
     );
+
+    public static final RegistryObject<Item> HALLEBARDE = ITEMS.register("halbert",
+        () -> new Item(new Item.Properties()
+            .setId(ITEMS.key("halbert"))
+            .axe(ToolMaterial.IRON, 4.5F, -3.4F)
+    ));
 
     public static final RegistryObject<Item> BRONZE_COIN = ITEMS.register("bronze_coin",
         () -> new Item(new Item.Properties()
