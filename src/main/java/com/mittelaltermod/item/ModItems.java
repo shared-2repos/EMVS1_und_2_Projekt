@@ -15,6 +15,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraft.world.level.block.Block;
+import com.mittelaltermod.item.ModItems.ToolMaterial;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS,
@@ -26,6 +27,13 @@ public class ModItems {
     public static final RegistryObject<Item> SILVER_COIN = ITEMS.register("silver_coin",
             () -> new Item(new Item.Properties()
                     .setId(ITEMS.key("silver_coin"))));
+
+    public static final RegistryObject<Item> SILVER_SWORD = ITEMS.register("silver_sword",
+        () -> new Item(new Item.Properties()
+            .setId(ITEMS.key("silver_sword"))
+            .sword(ToolMaterial.IRON,2.5F,2F)
+        )
+    );
 
     public static final RegistryObject<Item> BRONZE_COIN = ITEMS.register("bronze_coin",
             () -> new Item(new Item.Properties()
@@ -93,7 +101,7 @@ public class ModItems {
 
     public record ToolMaterial(TagKey<Block> incorrectBlocksForDrops, int durability, float speed,
             float attackDamageBonus, int enchantmentValue, TagKey<Item> repairItems) {
-        public static final ToolMaterial SILBER = new ToolMaterial(ModBlockTags.SILVER_ORES, 59, 2.0F, 0.0F, 15,
+        public static final ToolMaterial SILVER = new ToolMaterial(ModBlockTags.SILVER_ORES, 59, 2.0F, 0.0F, 15,
                 ModItemTags.SILVER_TOOL_MATERIALS);
     };
 
