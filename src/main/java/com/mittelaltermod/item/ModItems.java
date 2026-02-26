@@ -35,7 +35,7 @@ public class ModItems {
         )
     );
 
-    public static final RegistryObject<Item> HALLEBARDE = ITEMS.register("halbert",
+    public static final RegistryObject<Item> HALBERT = ITEMS.register("halbert",
         () -> new Item(new Item.Properties()
             .setId(ITEMS.key("halbert"))
             .axe(ToolMaterial.IRON, 4.5F, -3.4F)
