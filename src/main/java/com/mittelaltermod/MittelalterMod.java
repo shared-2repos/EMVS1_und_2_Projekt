@@ -2,6 +2,7 @@ package com.mittelaltermod;
 
 import com.mittelaltermod.block.ModBlocks;
 import com.mittelaltermod.item.ModItems;
+import com.mittelaltermod.entity.ModEntities;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
@@ -58,6 +59,9 @@ public final class MittelalterMod {
 
 		LOGGER.info("Registering ModItems...");
 		ModItems.ITEMS.register(modBusGroup);
+
+		LOGGER.info("Registering ModEntities...");
+		ModEntities.ENTITIES.register(modBusGroup);
 
 		LOGGER.info("Registering CreativeModeTabs...");
 		CREATIVE_MODE_TABS.register(modBusGroup);
