@@ -23,11 +23,11 @@ public class ModItems {
         )
     );
 
-    public static final RegistryObject<Item> FIRE_ARROW = ITEMS.register("fire_arrow",
-            () -> new ArrowItem(new Item.Properties()
-                    .setId(ITEMS.key("fire_arrow"))
-            )
-    );
+	public static final RegistryObject<Item> FIRE_ARROW = ITEMS.register("fire_arrow",
+		() -> new ArrowItem(new Item.Properties()
+			.setId(ITEMS.key("fire_arrow"))
+		)
+	);
 
     public static final RegistryObject<Item> BREAD_LOAF = ITEMS.register("bread_loaf",
         () -> new Item(new Item.Properties()
