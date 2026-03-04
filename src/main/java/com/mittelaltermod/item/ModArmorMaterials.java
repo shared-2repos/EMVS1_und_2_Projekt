@@ -16,7 +16,9 @@ public class ModArmorMaterials {
                         SoundEvents.ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, ItemTags.REPAIRS_CLOTH_ARMOR,
                         EquipmentAssets.CLOTH);
 
-        public static final ArmorMaterial LEAD = new ArmorMaterial(6, makeDefense(1, 2, 3, 1, 10), 0, null, 0, 0, null, null)
+        public static final ArmorMaterial LEAD = new ArmorMaterial(6, makeDefense(1, 2, 3, 1, 10), 0,
+                        SoundEvents.ARMOR_EQUIP_GOLD, 0.0F, 0.0F,
+                        ItemTags.REPAIRS_LEAD_ARMOR, EquipmentAssets.LEAD);
 
         public static final ArmorMaterial SILVER = new ArmorMaterial(8, makeDefense(1, 3, 6, 3, 8), 12,
                         SoundEvents.ARMOR_EQUIP_GOLD, 0.0F, 0.0F, ItemTags.REPAIRS_GOLD_ARMOR, EquipmentAssets.GOLD);
