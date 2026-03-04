@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " F ",
+    " A ",
+    "   "
+  ],
+  "key": {
+    "F": { "item": "minecraft:flint_and_steel" },
+    "A": { "item": "minecraft:arrow" }
+  },
+  "result": {
+    "item": "mittelaltermod:fire_arrow",
+    "count": 4
+  }
+}

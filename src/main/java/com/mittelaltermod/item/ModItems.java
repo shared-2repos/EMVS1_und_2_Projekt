@@ -3,6 +3,8 @@ package com.mittelaltermod.item;
 
 import com.mittelaltermod.MittelalterMod;
 import com.mittelaltermod.block.ModBlocks;
+
+import net.minecraft.world.item.ArrowItem;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.food.FoodProperties;
@@ -20,7 +22,13 @@ public class ModItems {
             .setId(ITEMS.key("silver_coin"))
         )
     );
-    
+
+    public static final RegistryObject<Item> FIRE_ARROW = ITEMS.register("fire_arrow",
+            () -> new ArrowItem(new Item.Properties()
+                    .setId(ITEMS.key("fire_arrow"))
+            )
+    );
+
     public static final RegistryObject<Item> BREAD_LOAF = ITEMS.register("bread_loaf",
         () -> new Item(new Item.Properties()
             .setId(ITEMS.key("bread_loaf"))
