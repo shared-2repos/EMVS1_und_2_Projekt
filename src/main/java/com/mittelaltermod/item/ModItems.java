@@ -2,26 +2,20 @@
 package com.mittelaltermod.item;
 
 import com.mittelaltermod.MittelalterMod;
-import com.mittelaltermod.block.ModBlocks;
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ToolMaterial;
-import net.minecraft.world.item.equipment.ArmorMaterial;
-import net.minecraft.world.item.equipment.ArmorMaterials;
-import net.minecraft.world.item.equipment.ArmorType;
-import net.minecraft.world.level.block.IronBarsBlock;
-import net.minecraft.tags.BlockTags;
-import net.minecraft.tags.ItemTags;
-import net.minecraft.tags.BlockTags;
-import net.minecraft.tags.ItemTags;
-import com.mittelaltermod.ModItemTags;
 import com.mittelaltermod.ModBlockTags;
+import com.mittelaltermod.ModItemTags;
+import com.mittelaltermod.block.ModBlocks;
+
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.equipment.ArmorMaterials;
+import net.minecraft.world.item.equipment.ArmorType;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import net.minecraft.world.level.block.Block;
 
 public class ModItems {
         public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS,
