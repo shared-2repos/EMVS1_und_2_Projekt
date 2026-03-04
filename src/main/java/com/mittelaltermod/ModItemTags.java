@@ -9,6 +9,10 @@ public class ModItemTags {
     public static final TagKey<Item> SILVER_ORES = bind("silver_ores");
     public static final TagKey<Item> SILVER_TOOL_MATERIALS = bind("silver_tool_materials");
     public static final TagKey<Item> REPAIRS_SILVER_ARMOR = bind("repairs_silver_armor");
+    public static final TagKey<Item> REPAIRS_CLOTH_ARMOR = bind("repairs_cloth_armor");
+    public static final TagKey<Item> REPAIRS_LEAD_ARMOR = bind("repairs_lead_armor");
+    public static final TagKey<Item> REPAIRS_BRONZE_ARMOR = bind("repairs_bronze_armor");
+    public static final TagKey<Item> REPAIRS_CARBON_ARMOR = bind("repairs_carbon_armor");
 
     private ModItemTags() {
     }
@@ -24,4 +28,5 @@ public class ModItemTags {
     public static TagKey<Item> create(Identifier name) {
         return TagKey.create(Registries.ITEM, name);
     }
+
 }
