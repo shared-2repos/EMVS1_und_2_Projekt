@@ -44,8 +44,17 @@ public final class MittelalterMod {
                 output.accept(ModItems.CASTLE_BRICK_ITEM.get());
                 output.accept(ModItems.SILVER_SWORD.get());
                 output.accept(ModItems.WOOD_LONG_SWORD.get());
+                output.accept(ModItems.COPPER_LONG_SWORD.get());
                 output.accept(ModItems.IRON_LONG_SWORD.get());
-                output.accept(ModItems.HALBERT.get());
+                output.accept(ModItems.GOLD_LONG_SWORD.get());
+                output.accept(ModItems.DIAMOND_LONG_SWORD.get());
+                output.accept(ModItems.NETHERITE_LONG_SWORD.get());
+                output.accept(ModItems.WOOD_HALBERT.get());
+                output.accept(ModItems.COPPER_HALBERT.get());
+                output.accept(ModItems.IRON_HALBERT.get());
+                output.accept(ModItems.GOLD_HALBERT.get());
+                output.accept(ModItems.DIAMOND_HALBERT.get());
+                output.accept(ModItems.NETHERITE_HALBERT.get());
                 output.accept(ModItems.BRONZE_COIN.get());
                 output.accept(ModItems.GOLD_COIN.get());
                 output.accept(ModItems.FAT.get());
@@ -126,7 +135,18 @@ public final class MittelalterMod {
             event.accept(ModItems.BRONZE_COIN);
             event.accept(ModItems.GOLD_COIN);
             event.accept(ModItems.SILVER_SWORD);
-            event.accept(ModItems.HALBERT);
+            event.accept(ModItems.WOOD_LONG_SWORD);
+            event.accept(ModItems.COPPER_LONG_SWORD);
+            event.accept(ModItems.IRON_LONG_SWORD);
+            event.accept(ModItems.GOLD_LONG_SWORD);
+            event.accept(ModItems.DIAMOND_LONG_SWORD);
+            event.accept(ModItems.NETHERITE_LONG_SWORD);
+            event.accept(ModItems.WOOD_HALBERT);
+            event.accept(ModItems.COPPER_HALBERT);
+            event.accept(ModItems.IRON_HALBERT);
+            event.accept(ModItems.GOLD_HALBERT);
+            event.accept(ModItems.DIAMOND_HALBERT);
+            event.accept(ModItems.NETHERITE_HALBERT);
         }
     }
 

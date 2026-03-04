@@ -76,11 +76,46 @@ public class ModItems {
             .sword(ToolMaterial.NETHERITE, 3F, -3.4F)
         )       
     );
-    public static final RegistryObject<Item> HALBERT = ITEMS.register("halbert",
+
+    public static final RegistryObject<Item> WOOD_HALBERT = ITEMS.register("wood_halbert",
         () -> new Item(new Item.Properties()
-            .setId(ITEMS.key("halbert"))
+            .setId(ITEMS.key("wood_halbert"))
+            .axe(ToolMaterial.WOOD, 4.5F, -3.4F)
+    ));
+
+    public static final RegistryObject<Item> COPPER_HALBERT = ITEMS.register("copper_halbert",
+        () -> new Item(new Item.Properties()
+            .setId(ITEMS.key("copper_halbert"))
+            .axe(ToolMaterial.COPPER, 4.5F, -3.4F)
+    ));
+
+
+    public static final RegistryObject<Item> IRON_HALBERT = ITEMS.register("iron_halbert",
+        () -> new Item(new Item.Properties()
+            .setId(ITEMS.key("iron_halbert"))
             .axe(ToolMaterial.IRON, 4.5F, -3.4F)
     ));
+
+    public static final RegistryObject<Item> GOLD_HALBERT = ITEMS.register("gold_halbert",
+        () -> new Item(new Item.Properties()
+            .setId(ITEMS.key("gold_halbert"))
+            .axe(ToolMaterial.GOLD, 4.5F, -3.4F)
+    ));
+
+    public static final RegistryObject<Item> DIAMOND_HALBERT = ITEMS.register("diamond_halbert",
+        () -> new Item(new Item.Properties()
+            .setId(ITEMS.key("diamond_halbert"))
+            .axe(ToolMaterial.DIAMOND, 4.5F, -3.4F)
+    ));
+
+    public static final RegistryObject<Item> NETHERITE_HALBERT = ITEMS.register("netherite_halbert",
+        () -> new Item(new Item.Properties()
+            .setId(ITEMS.key("netherite_halbert"))
+            .axe(ToolMaterial.NETHERITE, 4.5F, -3.4F)
+    ));
+
+
+
 
     public static final RegistryObject<Item> BRONZE_COIN = ITEMS.register("bronze_coin",
         () -> new Item(new Item.Properties()
