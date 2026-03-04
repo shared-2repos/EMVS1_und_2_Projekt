@@ -5,11 +5,12 @@ import com.mittelaltermod.MittelalterMod;
 import com.mittelaltermod.ModBlockTags;
 import com.mittelaltermod.ModItemTags;
 import com.mittelaltermod.block.ModBlocks;
-
+import com.mittelaltermod.item.ModArmorMatreials;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.equipment.ArmorMaterial;
 import net.minecraft.world.item.equipment.ArmorMaterials;
 import net.minecraft.world.item.equipment.ArmorType;
 import net.minecraft.world.level.block.Block;
@@ -114,5 +115,5 @@ public class ModItems {
         public static final RegistryObject<Item> ARMOR = ITEMS.register("armor",
                         () -> new Item(new Item.Properties()
                                         .setId(ITEMS.key("armor"))
-                                        .humanoidArmor(ArmorMaterials.IRON, ArmorType.HELMET)));
+                                        .humanoidArmor(ArmorMaterials, ArmorType.HELMET)));
 }
