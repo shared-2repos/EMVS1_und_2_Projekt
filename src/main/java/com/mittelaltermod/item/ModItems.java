@@ -5,13 +5,11 @@ import com.mittelaltermod.MittelalterMod;
 import com.mittelaltermod.ModBlockTags;
 import com.mittelaltermod.ModItemTags;
 import com.mittelaltermod.block.ModBlocks;
-import com.mittelaltermod.item.ModArmorMatreials;
+
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.equipment.ArmorMaterial;
-import net.minecraft.world.item.equipment.ArmorMaterials;
 import net.minecraft.world.item.equipment.ArmorType;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.registries.DeferredRegister;
@@ -112,8 +110,23 @@ public class ModItems {
                                         .setId(ITEMS.key("silver_ores"))));
 
         // Armors
-        public static final RegistryObject<Item> ARMOR = ITEMS.register("armor",
+        public static final RegistryObject<Item> ARMOR_HELMET = ITEMS.register("armor_helmet",
                         () -> new Item(new Item.Properties()
-                                        .setId(ITEMS.key("armor"))
-                                        .humanoidArmor(ArmorMaterials, ArmorType.HELMET)));
+                                        .setId(ITEMS.key("armor_helmet"))
+                                        .humanoidArmor(ModArmorMaterials.SILVER, ArmorType.HELMET)));
+
+        public static final RegistryObject<Item> ARMOR_CHESTPLATE = ITEMS.register("armor_chestplate",
+                        () -> new Item(new Item.Properties()
+                                        .setId(ITEMS.key("armor_chestplate"))
+                                        .humanoidArmor(ModArmorMaterials.SILVER, ArmorType.CHESTPLATE)));
+
+        public static final RegistryObject<Item> ARMOR_LEGGINGS = ITEMS.register("armor_leggings",
+                        () -> new Item(new Item.Properties()
+                                        .setId(ITEMS.key("armor_leggings"))
+                                        .humanoidArmor(ModArmorMaterials.SILVER, ArmorType.LEGGINGS)));
+
+        public static final RegistryObject<Item> ARMOR_BOOTS = ITEMS.register("armor_boots",
+                        () -> new Item(new Item.Properties()
+                                        .setId(ITEMS.key("armor_boots"))
+                                        .humanoidArmor(ModArmorMaterials.SILVER, ArmorType.BOOTS)));
 }
