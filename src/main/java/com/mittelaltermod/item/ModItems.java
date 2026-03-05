@@ -2,16 +2,12 @@
 package com.mittelaltermod.item;
 
 import com.mittelaltermod.MittelalterMod;
-import com.mittelaltermod.ModBlockTags;
-import com.mittelaltermod.ModItemTags;
 import com.mittelaltermod.block.ModBlocks;
 
-import net.minecraft.tags.TagKey;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.equipment.ArmorType;
-import net.minecraft.world.level.block.Block;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -89,12 +85,6 @@ public class ModItems {
                                                         .nutrition(12)
                                                         .saturationModifier(1.1f)
                                                         .build())));
-
-        public record ToolMaterial(TagKey<Block> incorrectBlocksForDrops, int durability, float speed,
-                        float attackDamageBonus, int enchantmentValue, TagKey<Item> repairItems) {
-                public static final ToolMaterial SILBER = new ToolMaterial(ModBlockTags.SILVER_ORES, 59, 2.0F, 0.0F, 15,
-                                ModItemTags.SILVER_TOOL_MATERIALS);
-        };
 
         // Block items
         public static final RegistryObject<Item> SILVER_BLOCK_ITEM = ITEMS.register("silver_block",

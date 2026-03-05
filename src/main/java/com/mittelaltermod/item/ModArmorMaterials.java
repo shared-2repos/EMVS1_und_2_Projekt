@@ -3,14 +3,11 @@ package com.mittelaltermod.item;
 import java.util.Map;
 
 import com.google.common.collect.Maps;
+import com.mittelaltermod.ModItemTags;
 
 import net.minecraft.sounds.SoundEvents;
-import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.equipment.ArmorMaterial;
 import net.minecraft.world.item.equipment.ArmorType;
-import net.minecraft.world.item.equipment.EquipmentAssets;
-import com.mittelaltermod.ModItemTags;
-import com.mittelaltermod.item.ModEquipmentAssets;
 
 public class ModArmorMaterials {
 
