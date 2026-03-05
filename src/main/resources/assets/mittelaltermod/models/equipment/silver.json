@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "mittelaltermod:armor/silver_layer_1.png"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "mittelaltermod:armor/"
+      }
+    ]
+  }
+}
