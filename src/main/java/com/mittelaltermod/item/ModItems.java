@@ -100,23 +100,23 @@ public class ModItems {
                                         .setId(ITEMS.key("silver_ores"))));
 
         // Armors
-        public static final RegistryObject<Item> ARMOR_HELMET = ITEMS.register("armor_helmet",
+        public static final RegistryObject<Item> SILVER_ARMOR_HELMET = ITEMS.register("silver_armor_helmet",
                         () -> new Item(new Item.Properties()
-                                        .setId(ITEMS.key("armor_helmet"))
+                                        .setId(ITEMS.key("silver_armor_helmet"))
                                         .humanoidArmor(ModArmorMaterials.SILVER, ArmorType.HELMET)));
 
-        public static final RegistryObject<Item> ARMOR_CHESTPLATE = ITEMS.register("armor_chestplate",
+        public static final RegistryObject<Item> SILVER_ARMOR_CHESTPLATE = ITEMS.register("silver_armor_chestplate",
                         () -> new Item(new Item.Properties()
-                                        .setId(ITEMS.key("armor_chestplate"))
+                                        .setId(ITEMS.key("silver_armor_chestplate"))
                                         .humanoidArmor(ModArmorMaterials.SILVER, ArmorType.CHESTPLATE)));
 
-        public static final RegistryObject<Item> ARMOR_LEGGINGS = ITEMS.register("armor_leggings",
+        public static final RegistryObject<Item> SILVER_ARMOR_LEGGINGS = ITEMS.register("silver_armor_leggings",
                         () -> new Item(new Item.Properties()
-                                        .setId(ITEMS.key("armor_leggings"))
+                                        .setId(ITEMS.key("silver_armor_leggings"))
                                         .humanoidArmor(ModArmorMaterials.SILVER, ArmorType.LEGGINGS)));
 
-        public static final RegistryObject<Item> ARMOR_BOOTS = ITEMS.register("armor_boots",
+        public static final RegistryObject<Item> SILVER_ARMOR_BOOTS = ITEMS.register("silver_armor_boots",
                         () -> new Item(new Item.Properties()
-                                        .setId(ITEMS.key("armor_boots"))
+                                        .setId(ITEMS.key("silver_armor_boots"))
                                         .humanoidArmor(ModArmorMaterials.SILVER, ArmorType.BOOTS)));
 }
