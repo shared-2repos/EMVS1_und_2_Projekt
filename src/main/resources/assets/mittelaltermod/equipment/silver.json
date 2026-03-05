@@ -2,12 +2,12 @@
   "layers": {
     "humanoid": [
       {
-        "texture": "mittelaltermod:armor/silver_layer_1.png"
+        "texture": "mittelaltermod:silver_layer_1"
       }
     ],
     "humanoid_leggings": [
       {
-        "texture": "mittelaltermod:armor/silver_layer_1.png"
+        "texture": "mittelaltermod:silver_layer_2"
       }
     ]
   }
