@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "mittelaltermod:bronze_layer_1"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "mittelaltermod:bronze_layer_2"
+      }
+    ]
+  }
+}
