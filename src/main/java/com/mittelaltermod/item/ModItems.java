@@ -101,7 +101,10 @@ public class ModItems {
 
         // Armors
         // light Armor
-
+        public static final RegistryObject<Item> CLOTH_ARMOR_HELMET = ITEMS.register("cloth_armor_helmet",
+                        () -> new Item(new Item.Properties()
+                                        .setId(ITEMS.key("cloth_armor_helmet"))
+                                        .humanoidArmor(ModArmorMaterials.CLOTH, ArmorType.HELMET)));
         // medium Armor
 
         // normal armor

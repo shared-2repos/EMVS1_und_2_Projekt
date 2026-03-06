@@ -10,12 +10,13 @@ import net.minecraft.world.item.equipment.ArmorMaterial;
 import net.minecraft.world.item.equipment.ArmorType;
 
 public class ModArmorMaterials {
+        // enchantment value cannnot be 0
 
-        public static final ArmorMaterial CLOTH = new ArmorMaterial(4, makeDefense(0, 0, 0, 0, 0), 0,
+        public static final ArmorMaterial CLOTH = new ArmorMaterial(4, makeDefense(0, 0, 0, 0, 1), 1,
                         SoundEvents.ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, ModItemTags.REPAIRS_CLOTH_ARMOR,
                         ModEquipmentAssets.CLOTH);
 
-        public static final ArmorMaterial LEAD = new ArmorMaterial(6, makeDefense(1, 2, 3, 1, 10), 0,
+        public static final ArmorMaterial LEAD = new ArmorMaterial(6, makeDefense(1, 2, 3, 1, 10), 1,
                         SoundEvents.ARMOR_EQUIP_GOLD, 0.0F, 0.0F,
                         ModItemTags.REPAIRS_LEAD_ARMOR, ModEquipmentAssets.LEAD);
 
