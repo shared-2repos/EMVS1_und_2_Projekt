@@ -105,8 +105,42 @@ public class ModItems {
                         () -> new Item(new Item.Properties()
                                         .setId(ITEMS.key("cloth_armor_helmet"))
                                         .humanoidArmor(ModArmorMaterials.CLOTH, ArmorType.HELMET)));
-        // medium Armor
 
+        public static final RegistryObject<Item> CLOTH_ARMOR_CHESTPLATE = ITEMS.register("cloth_armor_chestplate",
+                        () -> new Item(new Item.Properties()
+                                        .setId(ITEMS.key("cloth_armor_chestplate"))
+                                        .humanoidArmor(ModArmorMaterials.CLOTH, ArmorType.CHESTPLATE)));
+
+        public static final RegistryObject<Item> CLOTH_ARMOR_BOOTS = ITEMS.register("cloth_armor_boots",
+                        () -> new Item(new Item.Properties()
+                                        .setId(ITEMS.key("cloth_armor_boots"))
+                                        .humanoidArmor(ModArmorMaterials.CLOTH, ArmorType.BOOTS)));
+
+        public static final RegistryObject<Item> CLOTH_ARMOR_LEGGINGS = ITEMS.register("cloth_armor_leggings",
+                        () -> new Item(new Item.Properties()
+                                        .setId(ITEMS.key("cloth_armor_leggings"))
+                                        .humanoidArmor(ModArmorMaterials.CLOTH, ArmorType.LEGGINGS)));
+
+        // medium Armor
+        public static final RegistryObject<Item> LEAD_ARMOR_HELMET = ITEMS.register("lead_armor_helmet",
+                        () -> new Item(new Item.Properties()
+                                        .setId(ITEMS.key("lead_armor_helmet"))
+                                        .humanoidArmor(ModArmorMaterials.LEAD, ArmorType.HELMET)));
+
+        public static final RegistryObject<Item> LEAD_ARMOR_CHESTPLATE = ITEMS.register("lead_armor_chestplate",
+                        () -> new Item(new Item.Properties()
+                                        .setId(ITEMS.key("lead_armor_chestplate"))
+                                        .humanoidArmor(ModArmorMaterials.LEAD, ArmorType.CHESTPLATE)));
+
+        public static final RegistryObject<Item> LEAD_ARMOR_BOOTS = ITEMS.register("lead_armor_boots",
+                        () -> new Item(new Item.Properties()
+                                        .setId(ITEMS.key("lead_armor_boots"))
+                                        .humanoidArmor(ModArmorMaterials.LEAD, ArmorType.BOOTS)));
+
+        public static final RegistryObject<Item> LEAD_ARMOR_LEGGINGS = ITEMS.register("lead_armor_leggings",
+                        () -> new Item(new Item.Properties()
+                                        .setId(ITEMS.key("lead_armor_leggings"))
+                                        .humanoidArmor(ModArmorMaterials.LEAD, ArmorType.LEGGINGS)));
         // normal armor
         public static final RegistryObject<Item> SILVER_ARMOR_HELMET = ITEMS.register("silver_armor_helmet",
                         () -> new Item(new Item.Properties()
