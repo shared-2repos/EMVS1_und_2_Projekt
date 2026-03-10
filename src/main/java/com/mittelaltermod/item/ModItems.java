@@ -171,7 +171,7 @@ public class ModItems {
                                         .setId(ITEMS.key("castle_brick"))));
 
         public static final RegistryObject<Item> SILVER_ORES = ITEMS.register("silver_ores",
-                        () -> new Item(new Item.Properties()
+                        () -> new BlockItem(ModBlocks.SILVER_ORES.get(), new Item.Properties()
                                         .setId(ITEMS.key("silver_ores"))));
 
         // Armors

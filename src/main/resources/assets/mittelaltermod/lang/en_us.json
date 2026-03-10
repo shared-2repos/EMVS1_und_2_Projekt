@@ -1,36 +1,63 @@
 {
-  "item.mittelaltermod.silver_coin": "Silver Coin",
+  "itemGroup.mittelaltermod.mittelalter_tab": "Mittelalter Items",
+
+
   "item.mittelaltermod.silver_sword": "Silver Sword",
-  "item.mittelaltermod.halbert": "Halbert",
-  "item.mittelaltermod.bronze_coin": "Bronze Coin",
+  "item.mittelaltermod.wood_long_sword":"Wood long Sword",
+  "item.mittelaltermod.copper_long_sword":"Copper long Sword",
+  "item.mittelaltermod.iron_long_sword":"Iron long Sword",
+  "item.mittelaltermod.gold_long_sword":"Gold long Sword",
+  "item.mittelaltermod.diamond_long_sword":"Diamond long Sword",
+  "item.mittelaltermod.netherite_long_sword":"Netherite long Sword",
+
+  "item.mittelaltermod.wood_halbert":"Wood Halbert",
+  "item.mittelaltermod.copper_halbert":"Copper Halbert",
+  "item.mittelaltermod.iron_halbert":"Iron Halbert",
+  "item.mittelaltermod.gold_halbert":"Gold Halbert",
+  "item.mittelaltermod.diamond_halbert":"Diamond Halbert",
+  "item.mittelaltermod.netherite_halbert":"Netherite Halbert",
+
+  "item.mittelaltermod.silver_coin": "Silver Coin",
+  "item.mittelaltermod.gold_coin":"Gold Coin",
+  "item.mittelaltermod.bronze_coin":"Bronze Coin",
+  "item.mittelaltermod.fat":"Fat",
+  
   "item.mittelaltermod.bread_loaf": "Bread Loaf",
-  "item.mittelaltermod.fat" : "Fat",
   "item.mittelaltermod.chicken_soup": "Chicken Soup",
   "item.mittelaltermod.vegan_soup": "Vegan Soup",
   "item.mittelaltermod.gulas_soup": "Gulas Soup",
   "item.mittelaltermod.cheese" : "Cheese",
   "item.mittelaltermod.fried_egg" : "Fried Egg",
   "item.mittelaltermod.stew" : "Stew",
+
   "block.mittelaltermod.silver_block": "Silver Block",
   "block.mittelaltermod.castle_brick": "Castle Brick",
-  "itemGroup.mittelaltermod.mittelalter_tab": "Mittelalter Items",
+  "block.mittelaltermod.silver_ores": "Silver Ore",
+  
+  "item.mittelaltermod.silver_block":  "Silver Block",
+  "item.mittelaltermod.castle_brick":  "Castle Brick",
   "item.mittelaltermod.silver_ores":  "Silver Ore",
+  
   "item.mittelaltermod.cloth_armor_helmet": "Cloth Helmet",
   "item.mittelaltermod.cloth_armor_chestplate": "Cloth Chestplate",
   "item.mittelaltermod.cloth_armor_leggings": "Cloth Leggings",
   "item.mittelaltermod.cloth_armor_boots":"Cloth Boots",
+  
   "item.mittelaltermod.lead_armor_helmet": "Lead Helmet",
-  "item.mittelaltermod$.lead_armor_chestplate":"Lead Chestplate",
-  "item.mittelaltermod.lead_armor_leggings":"Lead- Leggings",
+  "item.mittelaltermod.lead_armor_chestplate":"Lead Chestplate",
+  "item.mittelaltermod.lead_armor_leggings":"Lead Leggings",
   "item.mittelaltermod.lead_armor_boots":"Lead Boots",
+  
   "item.mittelaltermod.silver_armor_boots": "Silver Boots",
   "item.mittelaltermod.silver_armor_chestplate": "Silver Chestplate",
   "item.mittelaltermod.silver_armor_leggings": "Silver Leggings",
   "item.mittelaltermod.silver_armor_helmet": "Silver Helmet",
+  
   "item.mittelaltermod.bronze_armor_helmet": "Bronze Helmet",
   "item.mittelaltermod.bronze_armor_chestplate": "Bronze Chestplate",
   "item.mittelaltermod.bronze_armor_leggings":"Bronze Leggings",
-  "item.mittelaltermod.bronz_armor_boots":"Bronze Boots",
+  "item.mittelaltermod.bronze_armor_boots":"Bronze Boots",
+  
   "item.mittelaltermod.carbon_armor_helmet":"Carbon Helmet",
   "item.mittelaltermod.carbon_armor_chestplate":"Carbon Chestplate",
   "item.mittelaltermod.carbon_armor_leggings":"Carbon Leggings",
