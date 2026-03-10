@@ -4,7 +4,6 @@ package com.mittelaltermod.item;
 import com.mittelaltermod.MittelalterMod;
 import com.mittelaltermod.block.ModBlocks;
 
-import net.minecraft.tags.BlockTags;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
