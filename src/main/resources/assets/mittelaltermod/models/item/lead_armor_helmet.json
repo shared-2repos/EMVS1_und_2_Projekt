@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mittelaltermod:item/lead_armor_helmet"
+  }
+}

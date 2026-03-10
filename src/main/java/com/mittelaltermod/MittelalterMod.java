@@ -1,5 +1,6 @@
 package com.mittelaltermod;
 
+import org.slf4j.Logger;
 import com.mittelaltermod.block.ModBlocks;
 import com.mittelaltermod.item.ModItems;
 import com.mojang.logging.LogUtils;
@@ -19,7 +20,6 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(MittelalterMod.MODID)
@@ -42,10 +42,8 @@ public final class MittelalterMod {
                     .icon(() -> ModItems.SILVER_COIN.get().getDefaultInstance())
                     .displayItems((parameters, output) -> {
                         // Add items to our custom tab
-                        output.accept(ModItems.SILVER_COIN.get());
-                        output.accept(ModItems.BREAD_LOAF.get());
-                        output.accept(ModItems.SILVER_BLOCK_ITEM.get());
-                        output.accept(ModItems.CASTLE_BRICK_ITEM.get());
+                        // Weapons
+                        // Swords
                         output.accept(ModItems.SILVER_SWORD.get());
                         output.accept(ModItems.WOOD_LONG_SWORD.get());
                         output.accept(ModItems.COPPER_LONG_SWORD.get());
@@ -53,25 +51,57 @@ public final class MittelalterMod {
                         output.accept(ModItems.GOLD_LONG_SWORD.get());
                         output.accept(ModItems.DIAMOND_LONG_SWORD.get());
                         output.accept(ModItems.NETHERITE_LONG_SWORD.get());
+
+                        // Halbert
                         output.accept(ModItems.WOOD_HALBERT.get());
                         output.accept(ModItems.COPPER_HALBERT.get());
                         output.accept(ModItems.IRON_HALBERT.get());
                         output.accept(ModItems.GOLD_HALBERT.get());
                         output.accept(ModItems.DIAMOND_HALBERT.get());
                         output.accept(ModItems.NETHERITE_HALBERT.get());
-                        output.accept(ModItems.BRONZE_COIN.get());
+                        // Other
+                        output.accept(ModItems.SILVER_COIN.get());
                         output.accept(ModItems.GOLD_COIN.get());
+                        output.accept(ModItems.BRONZE_COIN.get());
                         output.accept(ModItems.FAT.get());
+                        // Food
+                        output.accept(ModItems.BREAD_LOAF.get());
                         output.accept(ModItems.CHICKEN_SOUP.get());
                         output.accept(ModItems.VEGAN_SOUP.get());
                         output.accept(ModItems.GULAS_SOUP.get());
                         output.accept(ModItems.CHEESE.get());
                         output.accept(ModItems.FRIED_EGG.get());
                         output.accept(ModItems.STEW.get());
+                        // Bloks
+                        output.accept(ModItems.SILVER_BLOCK_ITEM.get());
+                        output.accept(ModItems.CASTLE_BRICK_ITEM.get());
+                        output.accept(ModItems.SILVER_ORES.get());
+                        // Armor
+                        // light
+                        output.accept(ModItems.CLOTH_ARMOR_BOOTS.get());
+                        output.accept(ModItems.CLOTH_ARMOR_CHESTPLATE.get());
+                        output.accept(ModItems.CLOTH_ARMOR_HELMET.get());
+                        output.accept(ModItems.CLOTH_ARMOR_LEGGINGS.get());
+                        // medium
+                        output.accept(ModItems.LEAD_ARMOR_BOOTS.get());
+                        output.accept(ModItems.LEAD_ARMOR_CHESTPLATE.get());
+                        output.accept(ModItems.LEAD_ARMOR_HELMET.get());
+                        output.accept(ModItems.LEAD_ARMOR_LEGGINGS.get());
+                        // normal
                         output.accept(ModItems.SILVER_ARMOR_BOOTS.get());
                         output.accept(ModItems.SILVER_ARMOR_CHESTPLATE.get());
-                        output.accept(ModItems.SILVER_ARMOR_LEGGINGS.get());
                         output.accept(ModItems.SILVER_ARMOR_HELMET.get());
+                        output.accept(ModItems.SILVER_ARMOR_LEGGINGS.get());
+                        // heavy
+                        output.accept(ModItems.BRONZE_ARMOR_BOOTS.get());
+                        output.accept(ModItems.BRONZE_ARMOR_CHESTPLATE.get());
+                        output.accept(ModItems.BRONZE_ARMOR_HELMET.get());
+                        output.accept(ModItems.BRONZE_ARMOR_LEGGINGS.get());
+                        // jougernought
+                        output.accept(ModItems.CARBON_ARMOR_BOOTS.get());
+                        output.accept(ModItems.CARBON_ARMOR_CHESTPLATE.get());
+                        output.accept(ModItems.CARBON_ARMOR_HELMET.get());
+                        output.accept(ModItems.CARBON_ARMOR_LEGGINGS.get());
                         // Add more items here as you create them
                     }).build());
 
@@ -124,13 +154,19 @@ public final class MittelalterMod {
 
     // Add items to vanilla creative tabs
     private static void addCreative(BuildCreativeModeTabContentsEvent event) {
+
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModItems.SILVER_BLOCK_ITEM);
             event.accept(ModItems.CASTLE_BRICK_ITEM);
         }
+
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.SILVER_COIN);
+            event.accept(ModItems.BRONZE_COIN);
+            event.accept(ModItems.GOLD_COIN);
+            event.accept(ModItems.FAT);
         }
+
         if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ModItems.GULAS_SOUP);
             event.accept(ModItems.VEGAN_SOUP);
@@ -139,9 +175,9 @@ public final class MittelalterMod {
             event.accept(ModItems.CHEESE);
             event.accept(ModItems.FRIED_EGG);
             event.accept(ModItems.STEW);
-            event.accept(ModItems.FAT);
-            event.accept(ModItems.BRONZE_COIN);
-            event.accept(ModItems.GOLD_COIN);
+
+        }
+        if (event.getTabKey() == CreativeModeTabs.COMBAT) {
             event.accept(ModItems.SILVER_SWORD);
             event.accept(ModItems.WOOD_LONG_SWORD);
             event.accept(ModItems.COPPER_LONG_SWORD);
