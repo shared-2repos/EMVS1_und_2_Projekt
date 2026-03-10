@@ -46,6 +46,28 @@ public final class MittelalterMod {
                         output.accept(ModItems.BREAD_LOAF.get());
                         output.accept(ModItems.SILVER_BLOCK_ITEM.get());
                         output.accept(ModItems.CASTLE_BRICK_ITEM.get());
+                        output.accept(ModItems.SILVER_SWORD.get());
+                        output.accept(ModItems.WOOD_LONG_SWORD.get());
+                        output.accept(ModItems.COPPER_LONG_SWORD.get());
+                        output.accept(ModItems.IRON_LONG_SWORD.get());
+                        output.accept(ModItems.GOLD_LONG_SWORD.get());
+                        output.accept(ModItems.DIAMOND_LONG_SWORD.get());
+                        output.accept(ModItems.NETHERITE_LONG_SWORD.get());
+                        output.accept(ModItems.WOOD_HALBERT.get());
+                        output.accept(ModItems.COPPER_HALBERT.get());
+                        output.accept(ModItems.IRON_HALBERT.get());
+                        output.accept(ModItems.GOLD_HALBERT.get());
+                        output.accept(ModItems.DIAMOND_HALBERT.get());
+                        output.accept(ModItems.NETHERITE_HALBERT.get());
+                        output.accept(ModItems.BRONZE_COIN.get());
+                        output.accept(ModItems.GOLD_COIN.get());
+                        output.accept(ModItems.FAT.get());
+                        output.accept(ModItems.CHICKEN_SOUP.get());
+                        output.accept(ModItems.VEGAN_SOUP.get());
+                        output.accept(ModItems.GULAS_SOUP.get());
+                        output.accept(ModItems.CHEESE.get());
+                        output.accept(ModItems.FRIED_EGG.get());
+                        output.accept(ModItems.STEW.get());
                         output.accept(ModItems.SILVER_ARMOR_BOOTS.get());
                         output.accept(ModItems.SILVER_ARMOR_CHESTPLATE.get());
                         output.accept(ModItems.SILVER_ARMOR_LEGGINGS.get());
@@ -119,7 +141,20 @@ public final class MittelalterMod {
             event.accept(ModItems.STEW);
             event.accept(ModItems.FAT);
             event.accept(ModItems.BRONZE_COIN);
-            event.accept(ModItems.SILVER_ORES);
+            event.accept(ModItems.GOLD_COIN);
+            event.accept(ModItems.SILVER_SWORD);
+            event.accept(ModItems.WOOD_LONG_SWORD);
+            event.accept(ModItems.COPPER_LONG_SWORD);
+            event.accept(ModItems.IRON_LONG_SWORD);
+            event.accept(ModItems.GOLD_LONG_SWORD);
+            event.accept(ModItems.DIAMOND_LONG_SWORD);
+            event.accept(ModItems.NETHERITE_LONG_SWORD);
+            event.accept(ModItems.WOOD_HALBERT);
+            event.accept(ModItems.COPPER_HALBERT);
+            event.accept(ModItems.IRON_HALBERT);
+            event.accept(ModItems.GOLD_HALBERT);
+            event.accept(ModItems.DIAMOND_HALBERT);
+            event.accept(ModItems.NETHERITE_HALBERT);
         }
     }
 
