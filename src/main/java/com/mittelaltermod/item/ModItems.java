@@ -17,8 +17,6 @@ public class ModItems {
         public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS,
                         MittelalterMod.MODID);
 
-        // Register your items here
-
         // Weapons
         public static final RegistryObject<Item> SILVER_SWORD = ITEMS.register("silver_sword",
                         () -> new Item(new Item.Properties()
@@ -28,27 +26,27 @@ public class ModItems {
         public static final RegistryObject<Item> WOOD_LONG_SWORD = ITEMS.register("wood_long_sword",
                         () -> new Item(new Item.Properties()
                                         .setId(ITEMS.key("wood_long_sword"))
-                                        .sword(ToolMaterial.WOOD, 3F, -3.4F)));
+                                        .sword(ToolMaterial.WOOD, 3.5F, -2.4F)));
 
         public static final RegistryObject<Item> COPPER_LONG_SWORD = ITEMS.register("copper_long_sword",
                         () -> new Item(new Item.Properties()
                                         .setId(ITEMS.key("copper_long_sword"))
-                                        .sword(ToolMaterial.COPPER, 3F, -3.4F)));
+                                        .sword(ToolMaterial.COPPER, 3F, -2.6F)));
 
         public static final RegistryObject<Item> IRON_LONG_SWORD = ITEMS.register("iron_long_sword",
                         () -> new Item(new Item.Properties()
                                         .setId(ITEMS.key("iron_long_sword"))
-                                        .sword(ToolMaterial.IRON, 3F, -3.4F)));
+                                        .sword(ToolMaterial.IRON, 4F, -2.8F)));
 
         public static final RegistryObject<Item> GOLD_LONG_SWORD = ITEMS.register("gold_long_sword",
                         () -> new Item(new Item.Properties()
                                         .setId(ITEMS.key("gold_long_sword"))
-                                        .sword(ToolMaterial.DIAMOND, 3F, -3.4F)));
+                                        .sword(ToolMaterial.DIAMOND, 2F, -3F)));
 
         public static final RegistryObject<Item> DIAMOND_LONG_SWORD = ITEMS.register("diamond_long_sword",
                         () -> new Item(new Item.Properties()
                                         .setId(ITEMS.key("diamond_long_sword"))
-                                        .sword(ToolMaterial.DIAMOND, 3F, -3.4F)));
+                                        .sword(ToolMaterial.DIAMOND, 3.5F, -3.2F)));
 
         public static final RegistryObject<Item> NETHERITE_LONG_SWORD = ITEMS.register("netherite_long_sword",
                         () -> new Item(new Item.Properties()
