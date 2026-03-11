@@ -168,9 +168,9 @@ public class ModItems {
                         () -> new BlockItem(ModBlocks.CASTLE_BRICK.get(), new Item.Properties()
                                         .setId(ITEMS.key("castle_brick"))));
 
-        public static final RegistryObject<Item> SILVER_ORES = ITEMS.register("silver_ores",
-                        () -> new BlockItem(ModBlocks.SILVER_ORES.get(), new Item.Properties()
-                                        .setId(ITEMS.key("silver_ores"))));
+        public static final RegistryObject<Item> SILVER_ORE = ITEMS.register("silver_ore",
+                        () -> new BlockItem(ModBlocks.SILVER_ORE.get(), new Item.Properties()
+                                        .setId(ITEMS.key("silver_ore"))));
 
         // Armors
         // light Armor

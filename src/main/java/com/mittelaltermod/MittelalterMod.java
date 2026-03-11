@@ -75,7 +75,7 @@ public final class MittelalterMod {
                         // Bloks
                         output.accept(ModItems.SILVER_BLOCK_ITEM.get());
                         output.accept(ModItems.CASTLE_BRICK_ITEM.get());
-                        output.accept(ModItems.SILVER_ORES.get());
+                        output.accept(ModItems.SILVER_ORE.get());
                         // Armor
                         // light
                         output.accept(ModItems.CLOTH_ARMOR_BOOTS.get());
