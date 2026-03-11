@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smelting",
+    "category":"misc",
+    "cookingtime":100,
+    "experience":0.25,
+    "ingredient":{
+        "item": "mittelaltermod:bread_loaf"
+    },
+    "result":{
+        "id":"mittelaltermod:silver_armor_boots"
+    }
+}
