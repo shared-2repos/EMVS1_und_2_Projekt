@@ -20,7 +20,7 @@
   "item.mittelaltermod.silver_coin": "Silver Coin",
   "item.mittelaltermod.gold_coin":"Gold Coin",
   "item.mittelaltermod.bronze_coin":"Bronze Coin",
-  "item.mittelaltermod.fat":"Fat",
+  
   
   "item.mittelaltermod.bread_loaf": "Bread Loaf",
   "item.mittelaltermod.chicken_soup": "Chicken Soup",
@@ -30,10 +30,11 @@
   "item.mittelaltermod.fried_egg" : "Fried Egg",
   "item.mittelaltermod.stew" : "Stew",
 
-  "block.mittelaltermod.silver_block": "Silver Block",
-  "block.mittelaltermod.castle_brick": "Castle Brick",
-  "block.mittelaltermod.silver_ores": "Silver Ore",
-  
+  "item.mittelaltermod.fat":"Fat",
+  "item.mittelaltermod.silver_ingot":"Silver Ingot",
+  "item.mittelaltermod.silver_ingot_raw":"Raw Silver Ingot",
+  "item.mittelaltermod.cloth":"Cloth",
+
   "item.mittelaltermod.silver_block":  "Silver Block",
   "item.mittelaltermod.castle_brick":  "Castle Brick",
   "item.mittelaltermod.silver_ore":  "Silver Ore",

@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients":[
+        "mittelaltermod:silver_block"
+    ],
+  
+    "result":{
+        "count": 9,
+        "id": "mittelaltermod:silver_ingot"
+    }
+}

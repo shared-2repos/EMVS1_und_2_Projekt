@@ -83,7 +83,11 @@ public class ModItems {
                                         .setId(ITEMS.key("netherite_halbert"))
                                         .axe(ToolMaterial.NETHERITE, 4.5F, -3.4F)));
 
-        // Other
+        // ingrediens/materials
+
+        public static final RegistryObject<Item> CLOTH = ITEMS.register("cloth",
+                        () -> new Item(new Item.Properties()
+                                        .setId(ITEMS.key("cloth"))));
 
         public static final RegistryObject<Item> SILVER_INGOT = ITEMS.register("silver_ingot",
                         () -> new Item(new Item.Properties()
@@ -92,6 +96,12 @@ public class ModItems {
         public static final RegistryObject<Item> SILVER_INGOT_RAW = ITEMS.register("silver_ingot_raw",
                         () -> new Item(new Item.Properties()
                                         .setId(ITEMS.key("silver_ingot_raw"))));
+
+        public static final RegistryObject<Item> FAT = ITEMS.register("fat",
+                        () -> new Item(new Item.Properties()
+                                        .setId(ITEMS.key("fat"))));
+
+        // Other
 
         public static final RegistryObject<Item> SILVER_COIN = ITEMS.register("silver_coin",
                         () -> new Item(new Item.Properties()
@@ -104,10 +114,6 @@ public class ModItems {
         public static final RegistryObject<Item> BRONZE_COIN = ITEMS.register("bronze_coin",
                         () -> new Item(new Item.Properties()
                                         .setId(ITEMS.key("bronze_coin"))));
-
-        public static final RegistryObject<Item> FAT = ITEMS.register("fat",
-                        () -> new Item(new Item.Properties()
-                                        .setId(ITEMS.key("fat"))));
 
         // Food
 

@@ -59,11 +59,20 @@ public final class MittelalterMod {
                         output.accept(ModItems.GOLD_HALBERT.get());
                         output.accept(ModItems.DIAMOND_HALBERT.get());
                         output.accept(ModItems.NETHERITE_HALBERT.get());
+
+                        // ingrediens/materials
+
+                        output.accept(ModItems.FAT.get());
+                        output.accept(ModItems.SILVER_INGOT.get());
+                        output.accept(ModItems.SILVER_INGOT_RAW.get());
+                        output.accept(ModItems.CLOTH.get());
+
                         // Other
+
                         output.accept(ModItems.SILVER_COIN.get());
                         output.accept(ModItems.GOLD_COIN.get());
                         output.accept(ModItems.BRONZE_COIN.get());
-                        output.accept(ModItems.FAT.get());
+
                         // Food
                         output.accept(ModItems.BREAD_LOAF.get());
                         output.accept(ModItems.CHICKEN_SOUP.get());

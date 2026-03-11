@@ -1,6 +1,6 @@
 {
     "type": "minecraft:smelting",
-    "ingredient": "mittelaltermod:siver_ingot_raw",
+    "ingredient": "mittelaltermod:silver_ingot_raw",
     "result": {
         "id": "mittelaltermod:silver_ingot"
     },
