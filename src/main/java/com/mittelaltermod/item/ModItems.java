@@ -85,6 +85,14 @@ public class ModItems {
 
         // Other
 
+        public static final RegistryObject<Item> SILVER_INGOT = ITEMS.register("silver_ingot",
+                        () -> new Item(new Item.Properties()
+                                        .setId(ITEMS.key("silver_ingot"))));
+
+        public static final RegistryObject<Item> SILVER_INGOT_RAW = ITEMS.register("silver_ingot_raw",
+                        () -> new Item(new Item.Properties()
+                                        .setId(ITEMS.key("silver_ingot_raw"))));
+
         public static final RegistryObject<Item> SILVER_COIN = ITEMS.register("silver_coin",
                         () -> new Item(new Item.Properties()
                                         .setId(ITEMS.key("silver_coin"))));
