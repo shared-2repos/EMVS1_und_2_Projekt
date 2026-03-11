@@ -47,6 +47,7 @@ public final class MittelalterMod {
                         output.accept(ModItems.SILVER_SWORD.get());
                         output.accept(ModItems.WOOD_LONG_SWORD.get());
                         output.accept(ModItems.COPPER_LONG_SWORD.get());
+                        output.accept(ModItems.STONE_LONG_SWORD.get());
                         output.accept(ModItems.IRON_LONG_SWORD.get());
                         output.accept(ModItems.GOLD_LONG_SWORD.get());
                         output.accept(ModItems.DIAMOND_LONG_SWORD.get());
@@ -55,6 +56,7 @@ public final class MittelalterMod {
                         // Halbert
                         output.accept(ModItems.WOOD_HALBERT.get());
                         output.accept(ModItems.COPPER_HALBERT.get());
+                        output.accept(ModItems.STONE_HALBERT.get());
                         output.accept(ModItems.IRON_HALBERT.get());
                         output.accept(ModItems.GOLD_HALBERT.get());
                         output.accept(ModItems.DIAMOND_HALBERT.get());
@@ -181,12 +183,14 @@ public final class MittelalterMod {
             event.accept(ModItems.SILVER_SWORD);
             event.accept(ModItems.WOOD_LONG_SWORD);
             event.accept(ModItems.COPPER_LONG_SWORD);
+            event.accept(ModItems.STONE_LONG_SWORD);
             event.accept(ModItems.IRON_LONG_SWORD);
             event.accept(ModItems.GOLD_LONG_SWORD);
             event.accept(ModItems.DIAMOND_LONG_SWORD);
             event.accept(ModItems.NETHERITE_LONG_SWORD);
             event.accept(ModItems.WOOD_HALBERT);
             event.accept(ModItems.COPPER_HALBERT);
+            event.accept(ModItems.STONE_HALBERT);
             event.accept(ModItems.IRON_HALBERT);
             event.accept(ModItems.GOLD_HALBERT);
             event.accept(ModItems.DIAMOND_HALBERT);

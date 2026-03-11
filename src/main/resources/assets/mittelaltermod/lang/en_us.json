@@ -3,16 +3,18 @@
 
 
   "item.mittelaltermod.silver_sword": "Silver Sword",
-  "item.mittelaltermod.wood_long_sword":"Wood long Sword",
-  "item.mittelaltermod.copper_long_sword":"Copper long Sword",
-  "item.mittelaltermod.iron_long_sword":"Iron long Sword",
+  "item.mittelaltermod.wood_long_sword":"Wood Long Sword",
+  "item.mittelaltermod.copper_long_sword":"Copper Long Sword",
+  "item.mittelaltermod.stone_long_sword":"Stone Long Sword",
+  "item.mittelaltermod.iron_long_sword":"Iron Long Sword",
   "item.mittelaltermod.gold_long_sword":"Gold long Sword",
-  "item.mittelaltermod.diamond_long_sword":"Diamond long Sword",
-  "item.mittelaltermod.netherite_long_sword":"Netherite long Sword",
+  "item.mittelaltermod.diamond_long_sword":"Diamond Long Sword",
+  "item.mittelaltermod.netherite_long_sword":"Netherite Long Sword",
 
   "item.mittelaltermod.wood_halbert":"Wood Halbert",
   "item.mittelaltermod.copper_halbert":"Copper Halbert",
   "item.mittelaltermod.iron_halbert":"Iron Halbert",
+  "item.mittelaltermod.stone_halbert":"Stone Halbert",
   "item.mittelaltermod.gold_halbert":"Gold Halbert",
   "item.mittelaltermod.diamond_halbert":"Diamond Halbert",
   "item.mittelaltermod.netherite_halbert":"Netherite Halbert",
