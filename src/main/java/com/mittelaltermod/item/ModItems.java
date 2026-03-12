@@ -89,6 +89,10 @@ public class ModItems {
                         () -> new Item(new Item.Properties()
                                         .setId(ITEMS.key("cloth"))));
 
+        public static final RegistryObject<Item> LEAD = ITEMS.register("lead",
+                        () -> new Item(new Item.Properties()
+                                        .setId(ITEMS.key("lead"))));
+
         public static final RegistryObject<Item> SILVER_INGOT = ITEMS.register("silver_ingot",
                         () -> new Item(new Item.Properties()
                                         .setId(ITEMS.key("silver_ingot"))));
