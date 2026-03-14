@@ -58,8 +58,8 @@
   "item.mittelaltermod.bronze_armor_leggings":"Bronze Leggings",
   "item.mittelaltermod.bronze_armor_boots":"Bronze Boots",
   
-  "item.mittelaltermod.carbon_armor_helmet":"Carbon Helmet",
-  "item.mittelaltermod.carbon_armor_chestplate":"Carbon Chestplate",
-  "item.mittelaltermod.carbon_armor_leggings":"Carbon Leggings",
-  "item.mittelaltermod.carbon_armor_boots":"Carbon Boots"
+  "item.mittelaltermod.royale_armor_helmet":"Royale Helmet",
+  "item.mittelaltermod.royale_armor_chestplate":"Royale Chestplate",
+  "item.mittelaltermod.royale_armor_leggings":"Royale Leggings",
+  "item.mittelaltermod.royale_armor_boots":"Royale Boots"
 }
