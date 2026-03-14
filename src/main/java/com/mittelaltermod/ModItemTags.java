@@ -12,7 +12,7 @@ public class ModItemTags {
     public static final TagKey<Item> REPAIRS_CLOTH_ARMOR = bind("repairs_cloth_armor");
     public static final TagKey<Item> REPAIRS_LEAD_ARMOR = bind("repairs_lead_armor");
     public static final TagKey<Item> REPAIRS_BRONZE_ARMOR = bind("repairs_bronze_armor");
-    public static final TagKey<Item> REPAIRS_CARBON_ARMOR = bind("repairs_carbon_armor");
+    public static final TagKey<Item> REPAIRS_ROYALE_ARMOR = bind("repairs_royale_armor");
 
     private ModItemTags() {
     }

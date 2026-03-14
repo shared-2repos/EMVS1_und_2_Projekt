@@ -108,10 +108,10 @@ public final class MittelalterMod {
                         output.accept(ModItems.BRONZE_ARMOR_HELMET.get());
                         output.accept(ModItems.BRONZE_ARMOR_LEGGINGS.get());
                         // jougernought
-                        output.accept(ModItems.CARBON_ARMOR_BOOTS.get());
-                        output.accept(ModItems.CARBON_ARMOR_CHESTPLATE.get());
-                        output.accept(ModItems.CARBON_ARMOR_HELMET.get());
-                        output.accept(ModItems.CARBON_ARMOR_LEGGINGS.get());
+                        output.accept(ModItems.ROYALE_ARMOR_BOOTS.get());
+                        output.accept(ModItems.ROYALE_ARMOR_CHESTPLATE.get());
+                        output.accept(ModItems.ROYALE_ARMOR_HELMET.get());
+                        output.accept(ModItems.ROYALE_ARMOR_LEGGINGS.get());
                         // Add more items here as you create them
                     }).build());
 
