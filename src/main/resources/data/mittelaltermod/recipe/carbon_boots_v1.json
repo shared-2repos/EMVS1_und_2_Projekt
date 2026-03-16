@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "catagory": "misc",
+    "key":{
+    "A":"mittelaltermod:carbon"
+    
+},
+    "pattern":[
+        "A A",
+        "A A",
+        "   "
+    ],
+    "result":{
+        "count": 1,
+        "id": "mittelaltermod:carbon_armor_boots"
+    }
+}
