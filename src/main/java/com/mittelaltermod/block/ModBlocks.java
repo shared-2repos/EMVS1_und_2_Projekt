@@ -28,9 +28,9 @@ public class ModBlocks {
                     .mapColor(MapColor.STONE)
                     .strength(2.0f)));
 
-    public static final RegistryObject<Block> SILVER_ORES = BLOCKS.register("silver_ores",
+    public static final RegistryObject<Block> SILVER_ORE = BLOCKS.register("silver_ore",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .setId(BLOCKS.key("silver_ores"))
+                    .setId(BLOCKS.key("silver_ore"))
                     .mapColor(MapColor.METAL)
                     .strength(3.0f)
                     .requiresCorrectToolForDrops()));

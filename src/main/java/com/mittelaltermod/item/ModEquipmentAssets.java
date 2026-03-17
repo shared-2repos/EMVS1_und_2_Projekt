@@ -19,6 +19,6 @@ public class ModEquipmentAssets {
         public static final ResourceKey<EquipmentAsset> BRONZE = ResourceKey.create(EquipmentAssets.ROOT_ID,
                         Identifier.fromNamespaceAndPath("mittelaltermod", "bronze"));
 
-        public static final ResourceKey<EquipmentAsset> CARBON = ResourceKey.create(EquipmentAssets.ROOT_ID,
-                        Identifier.fromNamespaceAndPath("mittelaltermod", "carbon"));
+        public static final ResourceKey<EquipmentAsset> ROYALE = ResourceKey.create(EquipmentAssets.ROOT_ID,
+                        Identifier.fromNamespaceAndPath("mittelaltermod", "royale"));
 }

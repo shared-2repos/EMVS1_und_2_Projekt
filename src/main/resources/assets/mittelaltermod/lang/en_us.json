@@ -22,7 +22,7 @@
   "item.mittelaltermod.silver_coin": "Silver Coin",
   "item.mittelaltermod.gold_coin":"Gold Coin",
   "item.mittelaltermod.bronze_coin":"Bronze Coin",
-  "item.mittelaltermod.fat":"Fat",
+  
   
   "item.mittelaltermod.bread_loaf": "Bread Loaf",
   "item.mittelaltermod.chicken_soup": "Chicken Soup",
@@ -32,13 +32,16 @@
   "item.mittelaltermod.fried_egg" : "Fried Egg",
   "item.mittelaltermod.stew" : "Stew",
 
-  "block.mittelaltermod.silver_block": "Silver Block",
-  "block.mittelaltermod.castle_brick": "Castle Brick",
-  "block.mittelaltermod.silver_ores": "Silver Ore",
-  
+  "item.mittelaltermod.fat":"Fat",
+  "item.mittelaltermod.silver_ingot":"Silver Ingot",
+  "item.mittelaltermod.silver_ingot_raw":"Raw Silver Ingot",
+  "item.mittelaltermod.cloth":"Cloth",
+  "item.mittelaltermod.carbon":"Carbon",
+  "item.mittelaltermod.lead":"Lead",
+
   "item.mittelaltermod.silver_block":  "Silver Block",
   "item.mittelaltermod.castle_brick":  "Castle Brick",
-  "item.mittelaltermod.silver_ores":  "Silver Ore",
+  "item.mittelaltermod.silver_ore":  "Silver Ore",
   
   "item.mittelaltermod.cloth_armor_helmet": "Cloth Helmet",
   "item.mittelaltermod.cloth_armor_chestplate": "Cloth Chestplate",
@@ -60,8 +63,8 @@
   "item.mittelaltermod.bronze_armor_leggings":"Bronze Leggings",
   "item.mittelaltermod.bronze_armor_boots":"Bronze Boots",
   
-  "item.mittelaltermod.carbon_armor_helmet":"Carbon Helmet",
-  "item.mittelaltermod.carbon_armor_chestplate":"Carbon Chestplate",
-  "item.mittelaltermod.carbon_armor_leggings":"Carbon Leggings",
-  "item.mittelaltermod.carbon_armor_boots":"Carbon Boots"
+  "item.mittelaltermod.royale_armor_helmet":"Royale Helmet",
+  "item.mittelaltermod.royale_armor_chestplate":"Royale Chestplate",
+  "item.mittelaltermod.royale_armor_leggings":"Royale Leggings",
+  "item.mittelaltermod.royale_armor_boots":"Royale Boots"
 }

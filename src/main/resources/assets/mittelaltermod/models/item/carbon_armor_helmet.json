@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "mittelaltermod:item/carbon_armor_helmet"
-  }
-}
