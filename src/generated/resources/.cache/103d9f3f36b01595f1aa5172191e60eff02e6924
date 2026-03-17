@@ -1,1 +1,4 @@
-// 1.21.11	2026-03-17T11:42:24.0379911	Registries
+// 1.21.11	2026-03-17T15:21:34.4253243	Registries
+ca0582a400fbda1a484203da8c18f7c733fb056b data/mittelaltermod/forge/biome_modifier/add_silver_ore.json
+0047b913ecd5d6fc518b62d17b6cf524ae4cc6f3 data/mittelaltermod/worldgen/configured_feature/silver_ore.json
+b1c2140ea667ee0412a32ff88bbc1dcfec61f736 data/mittelaltermod/worldgen/placed_feature/silver_ore_placed.json
