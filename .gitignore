@@ -26,4 +26,5 @@ forge*changelog.txt
 
 .vscode
 # data logs
-**.log
+*.log.gz
+*.log
