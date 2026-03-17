@@ -1,23 +1,25 @@
-[16März2026 21:47:43.227] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 29, --assetsDir, C:\Users\diego\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, mittelaltermod, --all, --output, E:\repos\EMVS1_und_2_Projekt\src\generated\resources, --existing, E:\repos\EMVS1_und_2_Projekt\src\main\resources]
-[16März2026 21:47:43.229] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Microsoft OpenJDK 64-Bit Server VM 21.0.9+10-LTS
-[16März2026 21:47:43.229] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.4 starting: java version 21.0.9 by Microsoft; OS Windows 10 arch amd64 version 10.0
-[16März2026 21:47:43.316] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
-[16März2026 21:47:43.407] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/diego/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
-[16März2026 21:47:44.274] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[16März2026 21:47:44.502] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\diego\.gradle\caches\forge_gradle\assets, --assetIndex, 29, --mod, mittelaltermod, --all, --output, E:\repos\EMVS1_und_2_Projekt\src\generated\resources, --existing, E:\repos\EMVS1_und_2_Projekt\src\main\resources]
-[16März2026 21:47:49.135] [modloading-worker-0/INFO] [com.mittelaltermod.MittelalterMod/]: === MITTELALTER MOD CONSTRUCTOR START ===
-[16März2026 21:47:49.138] [modloading-worker-0/INFO] [com.mittelaltermod.MittelalterMod/]: Registering ModBlocks...
-[16März2026 21:47:49.140] [modloading-worker-0/INFO] [com.mittelaltermod.MittelalterMod/]: Registering ModItems...
-[16März2026 21:47:49.144] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 61.0.8, for MC 1.21.11 with MCP 20251223.124241
-[16März2026 21:47:49.146] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v61.0.8 Initialized
-[16März2026 21:47:49.146] [modloading-worker-0/INFO] [com.mittelaltermod.MittelalterMod/]: Registering CreativeModeTabs...
-[16März2026 21:47:49.154] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[16März2026 21:47:49.159] [modloading-worker-0/INFO] [com.mittelaltermod.MittelalterMod/]: Total items in ModItems.ITEMS: 52
-[16März2026 21:47:49.159] [modloading-worker-0/INFO] [com.mittelaltermod.MittelalterMod/]: === MITTELALTER MOD CONSTRUCTOR END ===
-[16März2026 21:47:49.324] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [mittelaltermod]
-[16März2026 21:47:49.379] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/diego/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.11-61.0.8_mapped_official_1.21.11/forge-1.21.11-61.0.8_mapped_official_1.21.11-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
-[16März2026 21:47:49.380] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/diego/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.11-61.0.8_mapped_official_1.21.11/forge-1.21.11-61.0.8_mapped_official_1.21.11-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
-[16März2026 21:47:49.465] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[16März2026 21:47:49.674] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 208 ms
-[16März2026 21:47:49.674] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 209 ms
-[16März2026 21:47:49.678] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 3, old count: 3, new count: 4, removed stale: 0, written: 0
+[17MÃ¤rz2026 08:55:12.234] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 29, --assetsDir, C:\Users\diego\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, mittelaltermod, --all, --output, C:\vscode\EMVS1_und_2_Projekt\src\generated\resources, --existing, C:\vscode\EMVS1_und_2_Projekt\src\main\resources]
+[17MÃ¤rz2026 08:55:12.239] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 21.0.8+12-LTS-250
+[17MÃ¤rz2026 08:55:12.240] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.4 starting: java version 21.0.8 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[17MÃ¤rz2026 08:55:12.429] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[17MÃ¤rz2026 08:55:12.562] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/diego/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
+[17MÃ¤rz2026 08:55:13.429] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[17MÃ¤rz2026 08:55:13.704] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\diego\.gradle\caches\forge_gradle\assets, --assetIndex, 29, --mod, mittelaltermod, --all, --output, C:\vscode\EMVS1_und_2_Projekt\src\generated\resources, --existing, C:\vscode\EMVS1_und_2_Projekt\src\main\resources]
+[17MÃ¤rz2026 08:55:17.992] [modloading-worker-0/INFO] [com.mittelaltermod.MittelalterMod/]: === MITTELALTER MOD CONSTRUCTOR START ===
+[17MÃ¤rz2026 08:55:17.994] [modloading-worker-0/INFO] [com.mittelaltermod.MittelalterMod/]: Registering ModBlocks...
+[17MÃ¤rz2026 08:55:17.998] [modloading-worker-0/INFO] [com.mittelaltermod.MittelalterMod/]: Registering ModItems...
+[17MÃ¤rz2026 08:55:18.000] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 61.0.8, for MC 1.21.11 with MCP 20251223.124241
+[17MÃ¤rz2026 08:55:18.001] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v61.0.8 Initialized
+[17MÃ¤rz2026 08:55:18.002] [modloading-worker-0/INFO] [com.mittelaltermod.MittelalterMod/]: Registering CreativeModeTabs...
+[17MÃ¤rz2026 08:55:18.008] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[17MÃ¤rz2026 08:55:18.011] [modloading-worker-0/INFO] [com.mittelaltermod.MittelalterMod/]: Total items in ModItems.ITEMS: 52
+[17MÃ¤rz2026 08:55:18.011] [modloading-worker-0/INFO] [com.mittelaltermod.MittelalterMod/]: === MITTELALTER MOD CONSTRUCTOR END ===
+[17MÃ¤rz2026 08:55:18.122] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [mittelaltermod]
+[17MÃ¤rz2026 08:55:18.172] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/diego/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.11-61.0.8_mapped_official_1.21.11/forge-1.21.11-61.0.8_mapped_official_1.21.11-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[17MÃ¤rz2026 08:55:18.173] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/diego/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.11-61.0.8_mapped_official_1.21.11/forge-1.21.11-61.0.8_mapped_official_1.21.11-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
+[17MÃ¤rz2026 08:55:18.297] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[17MÃ¤rz2026 08:55:18.484] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 186 ms
+[17MÃ¤rz2026 08:55:18.484] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id mittelaltermod
+[17MÃ¤rz2026 08:55:18.491] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id mittelaltermod finished after 7 ms
+[17MÃ¤rz2026 08:55:18.492] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 195 ms
+[17MÃ¤rz2026 08:55:18.495] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 5, old count: 3, new count: 6, removed stale: 0, written: 2
