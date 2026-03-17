@@ -6,12 +6,12 @@
     
 },
     "pattern":[
+        "AAA",
         "A A",
-        "A A",
-        "   "
+        "A A"
     ],
     "result":{
         "count": 1,
-        "id": "mittelaltermod:carbon_armor_boots"
+        "id": "mittelaltermod:royal_armor_leggings"
     }
 }
