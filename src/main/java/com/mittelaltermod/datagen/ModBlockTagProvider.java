@@ -5,10 +5,8 @@ import java.util.concurrent.CompletableFuture;
 import org.jetbrains.annotations.Nullable;
 
 import com.mittelaltermod.MittelalterMod;
-import com.mittelaltermod.ModBlockTags;
 import com.mittelaltermod.block.ModBlocks;
 
-import net.minecraft.core.HolderLookup;
 import net.minecraft.core.HolderLookup.Provider;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
