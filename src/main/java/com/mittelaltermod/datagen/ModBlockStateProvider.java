@@ -3,7 +3,7 @@ package com.mittelaltermod.datagen;
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 
-import com.mittelaltermod.block.ModBlocks;
+import com.mittelaltermod.block.modBlock;
 
 import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelOutput;
@@ -20,8 +20,8 @@ public class ModBlockStateProvider extends BlockModelGenerators {
 
     @Override
     public void run() {
-        this.createTrivialBlock();
-        ;
+        this.createTrivialBlock(modBlock.SILVER_BLOCK, null);
+
         super.run();
     }
 
