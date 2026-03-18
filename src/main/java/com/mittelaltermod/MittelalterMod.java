@@ -54,6 +54,7 @@ public final class MittelalterMod {
                         output.accept(ModItems.NETHERITE_LONG_SWORD.get());
 
                         // Halbert
+                        output.accept(ModItems.SILVER_HALBERT.get());
                         output.accept(ModItems.WOOD_HALBERT.get());
                         output.accept(ModItems.COPPER_HALBERT.get());
                         output.accept(ModItems.STONE_HALBERT.get());
