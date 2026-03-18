@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "catagory": "misc",
+    "key":{
+    "A":"mittelaltermod:lead"
+    
+},
+    "pattern":[
+        "   ",
+        "AAA",
+        "A A"
+    ],
+    "result":{
+        "count": 1,
+        "id": "mittelaltermod:lead_armor_helmet"
+    }
+}

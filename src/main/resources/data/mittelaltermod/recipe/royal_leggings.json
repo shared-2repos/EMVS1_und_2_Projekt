@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "catagory": "misc",
+    "key":{
+    "A":"mittelaltermod:carbon"
+    
+},
+    "pattern":[
+        "AAA",
+        "A A",
+        "A A"
+    ],
+    "result":{
+        "count": 1,
+        "id": "mittelaltermod:royal_armor_leggings"
+    }
+}

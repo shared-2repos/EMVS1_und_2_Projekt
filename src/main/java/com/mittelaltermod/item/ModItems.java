@@ -106,6 +106,32 @@ public class ModItems {
                                         .setId(ITEMS.key("netherite_halbert"))
                                         .axe(ToolMaterial.NETHERITE, 9F, -3F)));
 
+        // ingrediens/materials
+
+        public static final RegistryObject<Item> CLOTH = ITEMS.register("cloth",
+                        () -> new Item(new Item.Properties()
+                                        .setId(ITEMS.key("cloth"))));
+
+        public static final RegistryObject<Item> LEAD = ITEMS.register("lead",
+                        () -> new Item(new Item.Properties()
+                                        .setId(ITEMS.key("lead"))));
+
+        public static final RegistryObject<Item> CARBON = ITEMS.register("carbon",
+                        () -> new Item(new Item.Properties()
+                                        .setId(ITEMS.key("carbon"))));
+
+        public static final RegistryObject<Item> SILVER_INGOT = ITEMS.register("silver_ingot",
+                        () -> new Item(new Item.Properties()
+                                        .setId(ITEMS.key("silver_ingot"))));
+
+        public static final RegistryObject<Item> SILVER_INGOT_RAW = ITEMS.register("silver_ingot_raw",
+                        () -> new Item(new Item.Properties()
+                                        .setId(ITEMS.key("silver_ingot_raw"))));
+
+        public static final RegistryObject<Item> FAT = ITEMS.register("fat",
+                        () -> new Item(new Item.Properties()
+                                        .setId(ITEMS.key("fat"))));
+
         // Other
 
         public static final RegistryObject<Item> SILVER_COIN = ITEMS.register("silver_coin",
@@ -119,10 +145,6 @@ public class ModItems {
         public static final RegistryObject<Item> BRONZE_COIN = ITEMS.register("bronze_coin",
                         () -> new Item(new Item.Properties()
                                         .setId(ITEMS.key("bronze_coin"))));
-
-        public static final RegistryObject<Item> FAT = ITEMS.register("fat",
-                        () -> new Item(new Item.Properties()
-                                        .setId(ITEMS.key("fat"))));
 
         // Food
 
@@ -191,9 +213,9 @@ public class ModItems {
                         () -> new BlockItem(ModBlocks.CASTLE_BRICK.get(), new Item.Properties()
                                         .setId(ITEMS.key("castle_brick"))));
 
-        public static final RegistryObject<Item> SILVER_ORES = ITEMS.register("silver_ores",
-                        () -> new BlockItem(ModBlocks.SILVER_ORES.get(), new Item.Properties()
-                                        .setId(ITEMS.key("silver_ores"))));
+        public static final RegistryObject<Item> SILVER_ORE = ITEMS.register("silver_ore",
+                        () -> new BlockItem(ModBlocks.SILVER_ORE.get(), new Item.Properties()
+                                        .setId(ITEMS.key("silver_ore"))));
 
         // Armors
         // light Armor
@@ -286,24 +308,24 @@ public class ModItems {
 
         // jagernougt Armor
 
-        public static final RegistryObject<Item> CARBON_ARMOR_HELMET = ITEMS.register("carbon_armor_helmet",
+        public static final RegistryObject<Item> ROYALE_ARMOR_HELMET = ITEMS.register("royale_armor_helmet",
                         () -> new Item(new Item.Properties()
-                                        .setId(ITEMS.key("carbon_armor_helmet"))
-                                        .humanoidArmor(ModArmorMaterials.CARBON, ArmorType.HELMET)));
+                                        .setId(ITEMS.key("royale_armor_helmet"))
+                                        .humanoidArmor(ModArmorMaterials.ROYALE, ArmorType.HELMET)));
 
-        public static final RegistryObject<Item> CARBON_ARMOR_CHESTPLATE = ITEMS.register("carbon_armor_chestplate",
+        public static final RegistryObject<Item> ROYALE_ARMOR_CHESTPLATE = ITEMS.register("royale_armor_chestplate",
                         () -> new Item(new Item.Properties()
-                                        .setId(ITEMS.key("carbon_armor_chestplate"))
-                                        .humanoidArmor(ModArmorMaterials.CARBON, ArmorType.CHESTPLATE)));
+                                        .setId(ITEMS.key("royale_armor_chestplate"))
+                                        .humanoidArmor(ModArmorMaterials.ROYALE, ArmorType.CHESTPLATE)));
 
-        public static final RegistryObject<Item> CARBON_ARMOR_LEGGINGS = ITEMS.register("carbon_armor_leggings",
+        public static final RegistryObject<Item> ROYALE_ARMOR_LEGGINGS = ITEMS.register("royale_armor_leggings",
                         () -> new Item(new Item.Properties()
-                                        .setId(ITEMS.key("carbon_armor_leggings"))
-                                        .humanoidArmor(ModArmorMaterials.CARBON, ArmorType.LEGGINGS)));
+                                        .setId(ITEMS.key("royale_armor_leggings"))
+                                        .humanoidArmor(ModArmorMaterials.ROYALE, ArmorType.LEGGINGS)));
 
-        public static final RegistryObject<Item> CARBON_ARMOR_BOOTS = ITEMS.register("carbon_armor_boots",
+        public static final RegistryObject<Item> ROYALE_ARMOR_BOOTS = ITEMS.register("royale_armor_boots",
                         () -> new Item(new Item.Properties()
-                                        .setId(ITEMS.key("carbon_armor_boots"))
-                                        .humanoidArmor(ModArmorMaterials.CARBON, ArmorType.BOOTS)));
+                                        .setId(ITEMS.key("royale_armor_boots"))
+                                        .humanoidArmor(ModArmorMaterials.ROYALE, ArmorType.BOOTS)));
 
 }

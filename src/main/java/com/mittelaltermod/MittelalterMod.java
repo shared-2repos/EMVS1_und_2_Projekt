@@ -61,11 +61,22 @@ public final class MittelalterMod {
                         output.accept(ModItems.GOLD_HALBERT.get());
                         output.accept(ModItems.DIAMOND_HALBERT.get());
                         output.accept(ModItems.NETHERITE_HALBERT.get());
+
+                        // ingrediens/materials
+
+                        output.accept(ModItems.FAT.get());
+                        output.accept(ModItems.SILVER_INGOT.get());
+                        output.accept(ModItems.SILVER_INGOT_RAW.get());
+                        output.accept(ModItems.CLOTH.get());
+                        output.accept(ModItems.CARBON.get());
+                        output.accept(ModItems.LEAD.get());
+
                         // Other
+
                         output.accept(ModItems.SILVER_COIN.get());
                         output.accept(ModItems.GOLD_COIN.get());
                         output.accept(ModItems.BRONZE_COIN.get());
-                        output.accept(ModItems.FAT.get());
+
                         // Food
                         output.accept(ModItems.BREAD_LOAF.get());
                         output.accept(ModItems.CHICKEN_SOUP.get());
@@ -77,7 +88,7 @@ public final class MittelalterMod {
                         // Bloks
                         output.accept(ModItems.SILVER_BLOCK_ITEM.get());
                         output.accept(ModItems.CASTLE_BRICK_ITEM.get());
-                        output.accept(ModItems.SILVER_ORES.get());
+                        output.accept(ModItems.SILVER_ORE.get());
                         // Armor
                         // light
                         output.accept(ModItems.CLOTH_ARMOR_BOOTS.get());
@@ -100,10 +111,10 @@ public final class MittelalterMod {
                         output.accept(ModItems.BRONZE_ARMOR_HELMET.get());
                         output.accept(ModItems.BRONZE_ARMOR_LEGGINGS.get());
                         // jougernought
-                        output.accept(ModItems.CARBON_ARMOR_BOOTS.get());
-                        output.accept(ModItems.CARBON_ARMOR_CHESTPLATE.get());
-                        output.accept(ModItems.CARBON_ARMOR_HELMET.get());
-                        output.accept(ModItems.CARBON_ARMOR_LEGGINGS.get());
+                        output.accept(ModItems.ROYALE_ARMOR_BOOTS.get());
+                        output.accept(ModItems.ROYALE_ARMOR_CHESTPLATE.get());
+                        output.accept(ModItems.ROYALE_ARMOR_HELMET.get());
+                        output.accept(ModItems.ROYALE_ARMOR_LEGGINGS.get());
                         // Add more items here as you create them
                     }).build());
 

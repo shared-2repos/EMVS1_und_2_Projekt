@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "catagory": "misc",
+    "key":{
+    "A":"mittelaltermod:carbon"
+    
+},
+    "pattern":[
+        "A A",
+        "AAA",
+        "AAA"
+    ],
+    "result":{
+        "count": 1,
+        "id": "mittelaltermod:royal_armor_chestplate"
+    }
+}

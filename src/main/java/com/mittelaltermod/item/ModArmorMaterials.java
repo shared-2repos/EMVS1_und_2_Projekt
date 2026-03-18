@@ -28,9 +28,9 @@ public class ModArmorMaterials {
                         SoundEvents.ARMOR_EQUIP_IRON, 0.0F, 0.0F, ModItemTags.REPAIRS_BRONZE_ARMOR,
                         ModEquipmentAssets.BRONZE);
 
-        public static final ArmorMaterial CARBON = new ArmorMaterial(37, makeDefense(3, 6, 8, 3, 20), 15,
-                        SoundEvents.ARMOR_EQUIP_NETHERITE, 0.0F, 0.0F, ModItemTags.REPAIRS_CARBON_ARMOR,
-                        ModEquipmentAssets.CARBON);
+        public static final ArmorMaterial ROYALE = new ArmorMaterial(37, makeDefense(3, 6, 8, 3, 20), 15,
+                        SoundEvents.ARMOR_EQUIP_NETHERITE, 0.0F, 0.0F, ModItemTags.REPAIRS_ROYALE_ARMOR,
+                        ModEquipmentAssets.ROYALE);
 
         private static Map<ArmorType, Integer> makeDefense(int boots, int leggings, int chestplate, int helmet,
                         int body) {
