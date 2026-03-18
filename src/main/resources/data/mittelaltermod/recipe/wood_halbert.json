@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "catagory": "misc",
+    "key":{
+    "B":"minecraft:stick",
+    "A":"minecraft:wooden_sword",
+    "C":"minecraft:wooden_axe"
+    
+},
+    "pattern":[
+        "CA ",
+        " B ",
+        " B "
+    ],
+    "result":{
+        "count": 1,
+        "id": "mittelaltermod:wood_halbert"
+    }
+
+}
