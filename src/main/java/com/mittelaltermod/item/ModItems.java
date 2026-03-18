@@ -43,6 +43,12 @@ public class ModItems {
                                         .setId(ITEMS.key("iron_long_sword"))
                                         .sword(ToolMaterial.IRON, 5F, -2.6F)));
 
+        public static final RegistryObject<Item> SILVER_LONGSWORD = ITEMS.register("silver_long_sword",
+                        () -> new Item(new Item.Properties()
+                                        .setId(ITEMS.key("silver_long_sword"))
+                                        .sword(ModToolMaterials.SILVER,6F,-2.6F)
+        ));
+
         public static final RegistryObject<Item> GOLD_LONG_SWORD = ITEMS.register("gold_long_sword",
                         () -> new Item(new Item.Properties()
                                         .setId(ITEMS.key("gold_long_sword"))
@@ -77,6 +83,13 @@ public class ModItems {
                         () -> new Item(new Item.Properties()
                                         .setId(ITEMS.key("iron_halbert"))
                                         .axe(ToolMaterial.IRON, 8F, -2.6F)));
+
+        public static final RegistryObject<Item> SILVER_HALBERT = ITEMS.register("silver_halbert",
+                        () -> new Item(new Item.Properties()
+                                        .setId(ITEMS.key("silver_halbert"))
+                                        .axe(ModToolMaterials.SILVER, 9F, -2.6F)
+                        )
+        );
 
         public static final RegistryObject<Item> GOLD_HALBERT = ITEMS.register("gold_halbert",
                         () -> new Item(new Item.Properties()
