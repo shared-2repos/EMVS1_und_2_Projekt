@@ -13,9 +13,7 @@ import net.minecraft.client.data.models.ModelProvider;
 import net.minecraft.client.data.models.model.ItemModelUtils;
 import net.minecraft.client.data.models.model.ModelInstance;
 import net.minecraft.client.data.models.model.ModelLocationUtils;
-import net.minecraft.client.data.models.model.ModelTemplate;
 import net.minecraft.client.data.models.model.ModelTemplates;
-import net.minecraft.client.data.models.model.TextureMapping;
 import net.minecraft.client.renderer.item.ClientItem;
 import net.minecraft.resources.Identifier;
 import net.minecraft.world.item.BlockItem;
@@ -36,8 +34,8 @@ public class ModItemModelGenerator extends ItemModelGenerators {
 
     @Override
     public void run() {
-        generateItemWithExistingParrent(ModItems.SILVER_SWORD.get(), Items.WOODEN_SWORD);
-        generateFlatItem(ModItems.BREAD_LOAF, ModelTemplates.FLAT_ITEM);
+        generateItemWithExistingParent(ModItems.SILVER_SWORD.get(), Items.WOODEN_SWORD);
+        generateFlatItem(ModItems.BREAD_LOAF.get(), ModelTemplates.FLAT_ITEM);
 
         super.run();
     }
@@ -48,20 +46,8 @@ public class ModItemModelGenerator extends ItemModelGenerators {
         super(itemModelOutput, modelOutput);
     }
 
-    private Identifier createFlatItemModel(
-            final Item item,
-            final Item textureItem,
-            final String suffix,
-            final ModelTemplate modelTemplate) {
-        return modelTemplate.create(
-                ModelLocationUtils.getModelLocation(item, suffix),
-                TextureMapping.layer0(TextureMapping.getItemTexture(textureItem, suffix)),
-                modelOutput);
-    }
-
-    private void generateFlatItem(final Item item, final ModelTemplate modelTemplate, final Identifier texture) {
-        final var model = modelTemplate.create(item, TextureMapping.layer0(texture), modelOutput);
-        itemModelOutput.accept(item, ItemModelUtils.plainModel(model));
+    private void generateItemWithExistingParent(final Item item, final Item parent) {
+        itemModelOutput.accept(item, ItemModelUtils.plainModel(ModelLocationUtils.getModelLocation(parent)));
     }
 
     private void generateDefaultBlockModels() {
