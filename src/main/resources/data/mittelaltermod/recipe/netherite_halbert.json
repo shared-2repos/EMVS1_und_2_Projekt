@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "catagory": "misc",
+    "key":{
+    "B":"minecraft:stick",
+    "A":"minecraft:netherite_sword",
+    "C":"minecraft:netherite_axe"
+    
+},
+    "pattern":[
+        "CA ",
+        " B ",
+        " B "
+    ],
+    "result":{
+        "count": 1,
+        "id": "mittelaltermod:netherite_halbert"
+    }
+
+}

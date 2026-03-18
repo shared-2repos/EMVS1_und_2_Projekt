@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "catagory": "misc",
+    "key":{
+    "B":"minecraft:stick",
+    "A":"minecraft:iron_sword",
+    "C":"minecraft:iron_axe"
+    
+},
+    "pattern":[
+        "CA ",
+        " B ",
+        " B "
+    ],
+    "result":{
+        "count": 1,
+        "id": "mittelaltermod:iron_halbert"
+    }
+
+}
