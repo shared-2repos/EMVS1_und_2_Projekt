@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "mittelaltermod:item/diamond_long_sword"
+  }
+}

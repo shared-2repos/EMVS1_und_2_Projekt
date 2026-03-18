@@ -43,7 +43,7 @@ public class ModItems {
                                         .setId(ITEMS.key("iron_long_sword"))
                                         .sword(ToolMaterial.IRON, 5F, -2.6F)));
 
-        public static final RegistryObject<Item> SILVER_LONGSWORD = ITEMS.register("silver_long_sword",
+        public static final RegistryObject<Item> SILVER_LONG_SWORD = ITEMS.register("silver_long_sword",
                         () -> new Item(new Item.Properties()
                                         .setId(ITEMS.key("silver_long_sword"))
                                         .sword(ModToolMaterials.SILVER, 6F, -2.6F)));
