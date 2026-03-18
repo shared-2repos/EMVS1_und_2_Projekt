@@ -2,13 +2,15 @@
     "type": "minecraft:crafting_shaped",
     "catagory": "misc",
     "key":{
-    "A":"mittelaltermod:carbon"
+    "A":"mittelaltermod:sivlver_armor_leggings",
+    "B":"mittelaltermod:cloth_armor_leggings",
+    "C":"mittelaltermod:bronze_armor_leggings"
     
 },
     "pattern":[
-        "AAA",
-        "A A",
-        "A A"
+        " B ",
+        " A ",
+        " C "
     ],
     "result":{
         "count": 1,

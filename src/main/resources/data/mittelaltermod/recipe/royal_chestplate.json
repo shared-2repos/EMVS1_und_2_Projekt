@@ -2,13 +2,15 @@
     "type": "minecraft:crafting_shaped",
     "catagory": "misc",
     "key":{
-    "A":"mittelaltermod:carbon"
+    "A":"mittelaltermod:sivlver_armor_chestplate",
+    "B":"mittelaltermod:cloth_armor_chestplate",
+    "C":"mittelaltermod:bronze_armor_chestplate"
     
 },
     "pattern":[
-        "A A",
-        "AAA",
-        "AAA"
+        " B ",
+        " A ",
+        " C "
     ],
     "result":{
         "count": 1,

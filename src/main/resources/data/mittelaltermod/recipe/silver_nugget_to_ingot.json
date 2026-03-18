@@ -2,16 +2,16 @@
     "type": "minecraft:crafting_shaped",
     "catagory": "misc",
     "key":{
-    "A":"mittelaltermod:carbon"
+    "A":"mittelaltermod:silver_nugget"
     
 },
     "pattern":[
-        "   ",
         "AAA",
-        "A A"
+        "AAA",
+        "AAA"
     ],
     "result":{
         "count": 1,
-        "id": "mittelaltermod:royal_armor_helmet"
+        "id": "mittelaltermod:silver_ingot"
     }
 }

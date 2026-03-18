@@ -85,6 +85,10 @@ public class ModItems {
 
         // ingrediens/materials
 
+        public static final RegistryObject<Item> SILVER_NUGGET = ITEMS.register("silver_nugget",
+                        () -> new Item(new Item.Properties()
+                                        .setId(ITEMS.key("silver_nugget"))));
+
         public static final RegistryObject<Item> CLOTH = ITEMS.register("cloth",
                         () -> new Item(new Item.Properties()
                                         .setId(ITEMS.key("cloth"))));

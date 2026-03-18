@@ -2,13 +2,15 @@
     "type": "minecraft:crafting_shaped",
     "catagory": "misc",
     "key":{
-    "A":"mittelaltermod:carbon"
+    "A":"mittelaltermod:sivlver_armor_helmet",
+    "B":"mittelaltermod:cloth_armor_helmet",
+    "C":"mittelaltermod:bronze_armor_helmet"
     
 },
     "pattern":[
-        "AAA",
-        "A A",
-        "   "
+        " B ",
+        " A ",
+        " C "
     ],
     "result":{
         "count": 1,

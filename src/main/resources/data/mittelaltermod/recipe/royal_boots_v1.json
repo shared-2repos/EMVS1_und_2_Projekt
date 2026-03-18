@@ -2,13 +2,15 @@
     "type": "minecraft:crafting_shaped",
     "catagory": "misc",
     "key":{
-    "A":"mittelaltermod:carbon"
+    "A":"mittelaltermod:sivlver_armor_boots",
+    "B":"mittelaltermod:cloth_armor_boots",
+    "C":"mittelaltermod:bronze_armor_boots"
     
 },
     "pattern":[
-        "A A",
-        "A A",
-        "   "
+        " B ",
+        " A ",
+        " C "
     ],
     "result":{
         "count": 1,

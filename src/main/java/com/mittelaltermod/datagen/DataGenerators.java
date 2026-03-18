@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 import com.mittelaltermod.MittelalterMod;
+import com.mittelaltermod.datagen.models.ModItemModelGenerator;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
@@ -39,5 +40,6 @@ public class DataGenerators {
                 generator.addProvider(event.includeServer(), blockTagsProvider);
 
                 generator.addProvider(event.includeServer(), new ModDatapackEntries(packOutput, lookupProvider));
+
         }
 }
