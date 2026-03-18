@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "mittelaltermod:item/carbon"
+    "layer0": "mittelaltermod:item/bronze_nugget"
   }
 }

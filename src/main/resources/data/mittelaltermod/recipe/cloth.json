@@ -2,16 +2,17 @@
     "type": "minecraft:crafting_shaped",
     "catagory": "misc",
     "key":{
-    "B":"mittelaltermod:bronze_ingot"
+    "B":"minecraft:paper",
+    "A":"minecraft:leather"
     
 },
     "pattern":[
+        "AAA",
         "BBB",
-        "B B",
-        "B B"
+        "AAA"
     ],
     "result":{
         "count": 1,
-        "id": "mittelaltermod:bronze_armor_leggings"
+        "id": "mittelaltermod:cloth"
     }
 }

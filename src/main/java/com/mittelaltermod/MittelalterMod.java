@@ -63,12 +63,13 @@ public final class MittelalterMod {
                         output.accept(ModItems.NETHERITE_HALBERT.get());
 
                         // ingrediens/materials
+                        output.accept(ModItems.BRONZE_INGOT.get());
+                        output.accept(ModItems.BRONZE_NUGGET.get());
                         output.accept(ModItems.SILVER_NUGGET.get());
                         output.accept(ModItems.FAT.get());
                         output.accept(ModItems.SILVER_INGOT.get());
                         output.accept(ModItems.SILVER_INGOT_RAW.get());
                         output.accept(ModItems.CLOTH.get());
-                        output.accept(ModItems.CARBON.get());
                         output.accept(ModItems.LEAD.get());
 
                         // Other

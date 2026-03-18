@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "catagory": "misc",
+    "key":{
+    "B":"mittelaltermod:silver_ingot",
+    "A":"minecraft:copper_ingot"
+    
+},
+    "pattern":[
+        "AAA",
+        "BBB",
+        "AAA"
+    ],
+    "result":{
+        "count": 9,
+        "id": "mittelaltermod:bronze_ingot"
+    }
+}
