@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "catagory": "misc",
+    "key":{
+    "B":"minecraft:cobblestone",
+    "A":"minecraft:stone_sword"
+    
+},
+    "pattern":[
+        " B ",
+        " A ",
+        "   "
+    ],
+    "result":{
+        "count": 1,
+        "id": "mittelaltermod:stone_long_sword"
+    }
+}
