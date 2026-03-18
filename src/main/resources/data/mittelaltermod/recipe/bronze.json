@@ -7,12 +7,12 @@
     
 },
     "pattern":[
-        "AAA",
-        "BBB",
-        "AAA"
+        "AB ",
+        "AA ",
+        "   "
     ],
     "result":{
-        "count": 9,
+        "count": 4,
         "id": "mittelaltermod:bronze_ingot"
     }
 }

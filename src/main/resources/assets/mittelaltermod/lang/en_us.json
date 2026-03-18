@@ -32,6 +32,8 @@
   "item.mittelaltermod.fried_egg" : "Fried Egg",
   "item.mittelaltermod.stew" : "Stew",
 
+  "item.mittelaltermod.bronze_ingot":"Bronze Ingot",
+  "item.mittelaltermod.bronze_nugget":"Bronze Nugget",
   "item.mittelaltermod.silver_nugget":"Silver Nugget",
   "item.mittelaltermod.fat":"Fat",
   "item.mittelaltermod.silver_ingot":"Silver Ingot",

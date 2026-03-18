@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "catagory": "misc",
+    "key":{
+    "B":"minecraft:cooked_mutton",
+    "A":"mittelaltermod:fat"
+    
+},
+    "pattern":[
+        " B ",
+        " A ",
+        "   "
+    ],
+    "result":{
+        "count": 1,
+        "id": "mittelaltermod:stew"
+    }
+}
