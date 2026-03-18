@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "catagory": "misc",
+    "key":{
+    "B":"minecraft:porkchop",
+    "A":"minecraft:water_bucket",
+    "C":"minecraft:bowl"
+    
+},
+    "pattern":[
+        " B ",
+        " A ",
+        " C "
+    ],
+    "result":{
+        "count": 1,
+        "id": "mittelaltermod:fat"
+    }
+}

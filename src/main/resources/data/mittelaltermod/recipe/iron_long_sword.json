@@ -2,15 +2,18 @@
     "type": "minecraft:crafting_shaped",
     "catagory": "misc",
     "key":{
-    "B":"mittelaltermod:bronze_ingot"
+    "B":"minecraft:iron_ingot",
+    "A":"minecraft:iron_sword"
+    
 },
     "pattern":[
-        "B B",
-        "B B",
+        " B ",
+        " A ",
         "   "
     ],
     "result":{
         "count": 1,
-        "id": "mittelaltermod:bronze_armor_boots"
+        "id": "mittelaltermod:iron_long_sword"
     }
+
 }

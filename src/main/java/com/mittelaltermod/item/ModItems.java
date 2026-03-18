@@ -46,8 +46,7 @@ public class ModItems {
         public static final RegistryObject<Item> SILVER_LONGSWORD = ITEMS.register("silver_long_sword",
                         () -> new Item(new Item.Properties()
                                         .setId(ITEMS.key("silver_long_sword"))
-                                        .sword(ModToolMaterials.SILVER,6F,-2.6F)
-        ));
+                                        .sword(ModToolMaterials.SILVER, 6F, -2.6F)));
 
         public static final RegistryObject<Item> GOLD_LONG_SWORD = ITEMS.register("gold_long_sword",
                         () -> new Item(new Item.Properties()
@@ -87,9 +86,7 @@ public class ModItems {
         public static final RegistryObject<Item> SILVER_HALBERT = ITEMS.register("silver_halbert",
                         () -> new Item(new Item.Properties()
                                         .setId(ITEMS.key("silver_halbert"))
-                                        .axe(ModToolMaterials.SILVER, 9F, -2.6F)
-                        )
-        );
+                                        .axe(ModToolMaterials.SILVER, 9F, -2.6F)));
 
         public static final RegistryObject<Item> GOLD_HALBERT = ITEMS.register("gold_halbert",
                         () -> new Item(new Item.Properties()
@@ -108,6 +105,14 @@ public class ModItems {
 
         // ingrediens/materials
 
+        public static final RegistryObject<Item> BRONZE_INGOT = ITEMS.register("bronze_ingot",
+                        () -> new Item(new Item.Properties()
+                                        .setId(ITEMS.key("bronze_ingot"))));
+
+        public static final RegistryObject<Item> BRONZE_NUGGET = ITEMS.register("bronze_nugget",
+                        () -> new Item(new Item.Properties()
+                                        .setId(ITEMS.key("bronze_nugget"))));
+
         public static final RegistryObject<Item> SILVER_NUGGET = ITEMS.register("silver_nugget",
                         () -> new Item(new Item.Properties()
                                         .setId(ITEMS.key("silver_nugget"))));
@@ -119,10 +124,6 @@ public class ModItems {
         public static final RegistryObject<Item> LEAD = ITEMS.register("lead",
                         () -> new Item(new Item.Properties()
                                         .setId(ITEMS.key("lead"))));
-
-        public static final RegistryObject<Item> CARBON = ITEMS.register("carbon",
-                        () -> new Item(new Item.Properties()
-                                        .setId(ITEMS.key("carbon"))));
 
         public static final RegistryObject<Item> SILVER_INGOT = ITEMS.register("silver_ingot",
                         () -> new Item(new Item.Properties()

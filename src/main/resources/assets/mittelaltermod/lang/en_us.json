@@ -14,6 +14,7 @@
   "item.mittelaltermod.wood_halbert":"Wood Halbert",
   "item.mittelaltermod.copper_halbert":"Copper Halbert",
   "item.mittelaltermod.iron_halbert":"Iron Halbert",
+  "item.mittelaltermod.silver_halbert":"Silver Halbert",
   "item.mittelaltermod.stone_halbert":"Stone Halbert",
   "item.mittelaltermod.gold_halbert":"Gold Halbert",
   "item.mittelaltermod.diamond_halbert":"Diamond Halbert",
@@ -32,6 +33,8 @@
   "item.mittelaltermod.fried_egg" : "Fried Egg",
   "item.mittelaltermod.stew" : "Stew",
 
+  "item.mittelaltermod.bronze_ingot":"Bronze Ingot",
+  "item.mittelaltermod.bronze_nugget":"Bronze Nugget",
   "item.mittelaltermod.silver_nugget":"Silver Nugget",
   "item.mittelaltermod.fat":"Fat",
   "item.mittelaltermod.silver_ingot":"Silver Ingot",

@@ -2,16 +2,17 @@
     "type": "minecraft:crafting_shaped",
     "catagory": "misc",
     "key":{
-    "B":"mittelaltermod:bronze_ingot"
+    "B":"minecraft:cooked_mutton",
+    "A":"mittelaltermod:fat"
     
 },
     "pattern":[
-        "BBB",
-        "B B",
-        "B B"
+        " B ",
+        " A ",
+        "   "
     ],
     "result":{
         "count": 1,
-        "id": "mittelaltermod:bronze_armor_leggings"
+        "id": "mittelaltermod:stew"
     }
 }

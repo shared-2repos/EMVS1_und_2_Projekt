@@ -2,16 +2,16 @@
     "type": "minecraft:crafting_shaped",
     "catagory": "misc",
     "key":{
-    "B":"mittelaltermod:bronze_ingot"
+    "A":"mittelaltermod:bronze_nugget"
     
 },
     "pattern":[
-        "BBB",
-        "B B",
-        "B B"
+        " A ",
+        "AAA",
+        " A "
     ],
     "result":{
         "count": 1,
-        "id": "mittelaltermod:bronze_armor_leggings"
+        "id": "mittelaltermod:bronze_coin"
     }
 }
