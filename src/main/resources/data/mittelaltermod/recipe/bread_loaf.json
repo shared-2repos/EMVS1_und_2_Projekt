@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "catagory": "misc",
+    "key":{
+    "B":"minecraft:wheat",
+    "A":"minecraft:milk_bucket"
+},
+    "pattern":[
+        "BAB",
+        "  ",
+        "  "
+    ],
+    "result":{
+        "count": 1,
+        "id": "mittelaltermod:bread_loaf"
+    }
+}
