@@ -6,6 +6,7 @@ import com.mittelaltermod.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
@@ -40,6 +41,7 @@ public final class MittelalterMod {
             () -> CreativeModeTab.builder()
                     .withTabsBefore(CreativeModeTabs.COMBAT)
                     .icon(() -> ModItems.SILVER_COIN.get().getDefaultInstance())
+                    .title(Component.translatable("Mittelater Mod"))
                     .displayItems((parameters, output) -> {
                         // Add items to our custom tab
                         // Weapons
