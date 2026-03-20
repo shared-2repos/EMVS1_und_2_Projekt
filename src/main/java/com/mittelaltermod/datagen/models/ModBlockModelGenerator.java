@@ -36,7 +36,9 @@ public class ModBlockModelGenerator extends BlockModelGenerators {
 
     @Override
     public void run() {
+        createTrivialCube(ModBlocks.SILVER_BLOCK.get());
         createTrivialCube(ModBlocks.CASTLE_BRICK.get());
+        createTrivialCube(ModBlocks.SILVER_ORE.get());
         super.run();
     }
 

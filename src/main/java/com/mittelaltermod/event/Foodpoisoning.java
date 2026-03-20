@@ -37,6 +37,19 @@ public class Foodpoisoning {
                             2000, // 1s = 20 ticks
                             0 // amplifier (0 = level 1)
                     ));
+
+                }
+                if (player.level().random.nextFloat() < 0.05F) {
+                    player.addEffect(new MobEffectInstance(
+                            MobEffects.HUNGER,
+                            300,
+                            1));
+                }
+                if (player.level().random.nextFloat() < 0.01F) {
+                    player.addEffect(new MobEffectInstance(
+                            MobEffects.POISON,
+                            100,
+                            2));
                 }
             }
         }

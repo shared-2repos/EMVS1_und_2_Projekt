@@ -34,8 +34,71 @@ public class ModItemModelGenerator extends ItemModelGenerators {
 
     @Override
     public void run() {
-        generateItemWithExistingParent(ModItems.SILVER_SWORD.get(), Items.WOODEN_SWORD);
+
+        generateFlatItem(ModItems.SILVER_SWORD.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
+        generateFlatItem(ModItems.WOOD_LONG_SWORD.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
+        generateFlatItem(ModItems.COPPER_LONG_SWORD.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
+        generateFlatItem(ModItems.STONE_LONG_SWORD.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
+        generateFlatItem(ModItems.IRON_LONG_SWORD.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
+        generateFlatItem(ModItems.SILVER_LONG_SWORD.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
+        generateFlatItem(ModItems.GOLD_LONG_SWORD.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
+        generateFlatItem(ModItems.DIAMOND_LONG_SWORD.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
+        generateFlatItem(ModItems.NETHERITE_LONG_SWORD.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
+
+        generateFlatItem(ModItems.WOOD_HALBERT.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
+        generateFlatItem(ModItems.COPPER_HALBERT.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
+        generateFlatItem(ModItems.STONE_HALBERT.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
+        generateFlatItem(ModItems.IRON_HALBERT.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
+        generateFlatItem(ModItems.SILVER_HALBERT.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
+        generateFlatItem(ModItems.GOLD_HALBERT.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
+        generateFlatItem(ModItems.DIAMOND_HALBERT.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
+        generateFlatItem(ModItems.NETHERITE_HALBERT.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
+
+        generateFlatItem(ModItems.BRONZE_INGOT.get(), ModelTemplates.FLAT_ITEM);
+        generateFlatItem(ModItems.BRONZE_NUGGET.get(), ModelTemplates.FLAT_ITEM);
+        generateFlatItem(ModItems.SILVER_NUGGET.get(), ModelTemplates.FLAT_ITEM);
+        generateFlatItem(ModItems.CLOTH.get(), ModelTemplates.FLAT_ITEM);
+        generateFlatItem(ModItems.LEAD.get(), ModelTemplates.FLAT_ITEM);
+        generateFlatItem(ModItems.SILVER_INGOT.get(), ModelTemplates.FLAT_ITEM);
+        generateFlatItem(ModItems.SILVER_INGOT_RAW.get(), ModelTemplates.FLAT_ITEM);
+        generateFlatItem(ModItems.FAT.get(), ModelTemplates.FLAT_ITEM);
+
+        generateFlatItem(ModItems.SILVER_COIN.get(), ModelTemplates.FLAT_ITEM);
+        generateFlatItem(ModItems.GOLD_COIN.get(), ModelTemplates.FLAT_ITEM);
+        generateFlatItem(ModItems.BRONZE_COIN.get(), ModelTemplates.FLAT_ITEM);
+
         generateFlatItem(ModItems.BREAD_LOAF.get(), ModelTemplates.FLAT_ITEM);
+        generateFlatItem(ModItems.CHICKEN_SOUP.get(), ModelTemplates.FLAT_ITEM);
+        generateFlatItem(ModItems.VEGAN_SOUP.get(), ModelTemplates.FLAT_ITEM);
+        generateFlatItem(ModItems.GULAS_SOUP.get(), ModelTemplates.FLAT_ITEM);
+        generateFlatItem(ModItems.CHEESE.get(), ModelTemplates.FLAT_ITEM);
+        generateFlatItem(ModItems.FRIED_EGG.get(), ModelTemplates.FLAT_ITEM);
+        generateFlatItem(ModItems.STEW.get(), ModelTemplates.FLAT_ITEM);
+
+        generateFlatItem(ModItems.CLOTH_ARMOR_HELMET.get(), ModelTemplates.FLAT_ITEM);
+        generateFlatItem(ModItems.CLOTH_ARMOR_CHESTPLATE.get(), ModelTemplates.FLAT_ITEM);
+        generateFlatItem(ModItems.CLOTH_ARMOR_LEGGINGS.get(), ModelTemplates.FLAT_ITEM);
+        generateFlatItem(ModItems.CLOTH_ARMOR_BOOTS.get(), ModelTemplates.FLAT_ITEM);
+
+        generateFlatItem(ModItems.LEAD_ARMOR_HELMET.get(), ModelTemplates.FLAT_ITEM);
+        generateFlatItem(ModItems.LEAD_ARMOR_CHESTPLATE.get(), ModelTemplates.FLAT_ITEM);
+        generateFlatItem(ModItems.LEAD_ARMOR_LEGGINGS.get(), ModelTemplates.FLAT_ITEM);
+        generateFlatItem(ModItems.LEAD_ARMOR_BOOTS.get(), ModelTemplates.FLAT_ITEM);
+
+        generateFlatItem(ModItems.SILVER_ARMOR_HELMET.get(), ModelTemplates.FLAT_ITEM);
+        generateFlatItem(ModItems.SILVER_ARMOR_CHESTPLATE.get(), ModelTemplates.FLAT_ITEM);
+        generateFlatItem(ModItems.SILVER_ARMOR_LEGGINGS.get(), ModelTemplates.FLAT_ITEM);
+        generateFlatItem(ModItems.SILVER_ARMOR_BOOTS.get(), ModelTemplates.FLAT_ITEM);
+
+        generateFlatItem(ModItems.BRONZE_ARMOR_HELMET.get(), ModelTemplates.FLAT_ITEM);
+        generateFlatItem(ModItems.BRONZE_ARMOR_CHESTPLATE.get(), ModelTemplates.FLAT_ITEM);
+        generateFlatItem(ModItems.BRONZE_ARMOR_LEGGINGS.get(), ModelTemplates.FLAT_ITEM);
+        generateFlatItem(ModItems.BRONZE_ARMOR_BOOTS.get(), ModelTemplates.FLAT_ITEM);
+
+        generateFlatItem(ModItems.ROYALE_ARMOR_HELMET.get(), ModelTemplates.FLAT_ITEM);
+        generateFlatItem(ModItems.ROYALE_ARMOR_CHESTPLATE.get(), ModelTemplates.FLAT_ITEM);
+        generateFlatItem(ModItems.ROYALE_ARMOR_LEGGINGS.get(), ModelTemplates.FLAT_ITEM);
+        generateFlatItem(ModItems.ROYALE_ARMOR_BOOTS.get(), ModelTemplates.FLAT_ITEM);
 
         super.run();
     }

@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "catagory": "misc",
+    "key":{
+    "B":"minecraft:paper",
+    "A":"minecraft:leather"
+    
+},
+    "pattern":[
+        "AAA",
+        "BBB",
+        "AAA"
+    ],
+    "result":{
+        "count": 1,
+        "id": "mittelaltermod:cloth"
+    }
+}
