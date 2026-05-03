@@ -23,6 +23,8 @@ public class ModItems {
                                         .setId(ITEMS.key("silver_sword"))
                                         .sword(ToolMaterial.IRON, 2.5F, -2.8F)));
 
+        // Long Swords
+
         public static final RegistryObject<Item> WOOD_LONG_SWORD = ITEMS.register("wood_long_sword",
                         () -> new Item(new Item.Properties()
                                         .setId(ITEMS.key("wood_long_sword"))
@@ -63,6 +65,8 @@ public class ModItems {
                         () -> new Item(new Item.Properties()
                                         .setId(ITEMS.key("netherite_long_sword"))
                                         .sword(ToolMaterial.NETHERITE, 8.5F, -3F)));
+
+        // Halbert
 
         public static final RegistryObject<Item> WOOD_HALBERT = ITEMS.register("wood_halbert",
                         () -> new Item(new Item.Properties()
@@ -111,6 +115,21 @@ public class ModItems {
         public static final RegistryObject<Item> SILVER_NUGGET = ITEMS.register("silver_nugget",
                         () -> new Item(new Item.Properties()
                                         .setId(ITEMS.key("silver_nugget"))));
+
+        public static final RegistryObject<Item> NINE_MM_BULLET = ITEMS.register("nine_mm_bullet",
+                        () -> new Item(new Item.Properties()
+                                        .setId(ITEMS.key("nine_mm_bullet"))));
+
+        // Guns
+        public static final RegistryObject<Item> GLOCK19 = ITEMS.register("glock19",
+                        () -> new GunItem(new Item.Properties()
+                                        .setId(ITEMS.key("glock19"))
+                                        .stacksTo(1),
+                                        15,    // magazine size
+                                        40,    // reload time (ticks)
+                                        5.0F,  // damage
+                                        3.0F,  // bullet speed
+                                        10));  // shoot cooldown
 
         public static final RegistryObject<Item> CLOTH = ITEMS.register("cloth",
                         () -> new Item(new Item.Properties()
